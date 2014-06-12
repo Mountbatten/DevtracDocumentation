@@ -44,6 +44,14 @@ projects[module_filter][version] = 2.0-alpha2
 projects[module_filter][type] = "module"
 projects[module_filter][subdir] = "contrib"
 
+projects[entity][version] = 1.5
+projects[entity][type] = "module"
+projects[entity][subdir] = "contrib"
+
+projects[Jquery_update][version] = 2.4
+projects[Jquery_update][type] = "module"
+projects[Jquery_update][subdir] = "contrib"
+
 projects[libraries][version] = 3.x-dev
 projects[libraries][type] = "module"
 projects[libraries][subdir] = "contrib"
