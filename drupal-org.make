@@ -72,6 +72,10 @@ projects[omega_tools][version] = 3.0-rc4
 projects[omega_tools][type] = "module"
 projects[omega_tools][subdir] = "contrib"
 
+projects[nivo_slider][version] = 1.11
+projects[nivo_slider][type] = "module"
+projects[nivo_slider][subdir] = "contrib"
+
 projects[ckeditor][version] = 1.14
 projects[ckeditor][type] = "module"
 projects[ckeditor][subdir] = "contrib"
@@ -94,3 +98,8 @@ libraries[ckeditor][download][type] = "file"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.4.0/ckeditor_4.4.0_standard.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
+
+libraries[nivo-slider][download][type] = "file"
+libraries[nivo-slider][download][url] = "http://cloud.github.com/downloads/gilbitron/Nivo-Slider/nivo-slider3.1.zip"
+libraries[nivo-slider][directory_name] = "nivo-slider"
+libraries[nivo-slider][destination] = "libraries"
