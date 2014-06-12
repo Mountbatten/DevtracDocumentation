@@ -22,3 +22,4 @@ dependencies[] = wysiwyg
 dependencies[] = book_helper
 dependencies[] = omega_tools
 dependencies[] = ckeditor
+dependencies[] = delta
