@@ -36,10 +36,6 @@ projects[webform][version] = 3.20
 projects[webform][type] = "module"
 projects[webform][subdir] = "contrib"
 
-projects[chosen][version] = 2.0-beta4
-projects[chosen][type] = "module"
-projects[chosen][subdir] = "contrib"
-
 projects[module_filter][version] = 2.0-alpha2
 projects[module_filter][type] = "module"
 projects[module_filter][subdir] = "contrib"
@@ -112,12 +108,12 @@ projects[devtrac_theme][download][branch] = 7.x-1.x
 projects[devtrac_theme][download][url] = "http://git.drupal.org/project/devtrac_theme.git "
 
 ; Libraries
-libraries[chosen][download][type] = "file"
-libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/archive/v1.1.0.zip"
-libraries[chosen][directory_name] = "chosen"
-libraries[chosen][destination] = "libraries"
-
 libraries[ckeditor][download][type] = "file"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.4.0/ckeditor_4.4.0_standard.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
+
+libraries[colorbox][download][type] = "file"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.x.zip"
+libraries[colorbox][directory_name] = "colorbox"
+libraries[colorbox][destination] = "libraries"
