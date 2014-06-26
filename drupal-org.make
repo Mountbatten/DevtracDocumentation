@@ -48,9 +48,9 @@ projects[entity][version] = 1.5
 projects[entity][type] = "module"
 projects[entity][subdir] = "contrib"
 
-projects[Jquery_update][version] = 2.4
-projects[Jquery_update][type] = "module"
-projects[Jquery_update][subdir] = "contrib"
+projects[jquery_update][version] = 2.4
+projects[jquery_update][type] = "module"
+projects[jquery_update][subdir] = "contrib"
 
 projects[libraries][version] = 3.x-dev
 projects[libraries][type] = "module"
@@ -72,13 +72,33 @@ projects[omega_tools][version] = 3.0-rc4
 projects[omega_tools][type] = "module"
 projects[omega_tools][subdir] = "contrib"
 
-projects[nivo_slider][version] = 1.11
-projects[nivo_slider][type] = "module"
-projects[nivo_slider][subdir] = "contrib"
+projects[views_nivo_slider][version] = 1.11
+projects[views_nivo_slider][type] = "module"
+projects[views_nivo_slider][subdir] = "contrib"
 
 projects[ckeditor][version] = 1.14
 projects[ckeditor][type] = "module"
 projects[ckeditor][subdir] = "contrib"
+
+projects[colorbox][version] = 1.14
+projects[colorbox][type] = "module"
+projects[colorbox][subdir] = "contrib"
+
+projects[weight][version] = 1.14
+projects[weight][type] = "module"
+projects[weight][subdir] = "contrib"
+
+projects[picture][version] = 1.14
+projects[picture][type] = "module"
+projects[picture][subdir] = "contrib"
+
+projects[scroll_to_destination_anchors][version] = 1.14
+projects[scroll_to_destination_anchors][type] = "module"
+projects[scroll_to_destination_anchors][subdir] = "contrib"
+
+projects[tipsy][version] = 1.14
+projects[tipsy][type] = "module"
+projects[tipsy][subdir] = "contrib"
 
 ; Base theme.
 projects[omega][version] = 3.1
@@ -86,7 +106,10 @@ projects[omega][type] = "theme"
 projects[omega][subdir] = "themes"
 
 ;Main theme
-;coming up
+projects[devtrac_theme][type] = "theme"
+projects[devtrac_theme][download][type] = "git"
+projects[devtrac_theme][download][branch] = 7.x-1.x
+projects[devtrac_theme][download][url] = "http://git.drupal.org/project/devtrac_theme.git "
 
 ; Libraries
 libraries[chosen][download][type] = "file"
@@ -98,8 +121,3 @@ libraries[ckeditor][download][type] = "file"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.4.0/ckeditor_4.4.0_standard.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
-
-libraries[nivo-slider][download][type] = "file"
-libraries[nivo-slider][download][url] = "http://cloud.github.com/downloads/gilbitron/Nivo-Slider/nivo-slider3.1.zip"
-libraries[nivo-slider][directory_name] = "nivo-slider"
-libraries[nivo-slider][destination] = "libraries"
