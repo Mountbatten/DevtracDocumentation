@@ -68,31 +68,27 @@ projects[omega_tools][version] = 3.0-rc4
 projects[omega_tools][type] = "module"
 projects[omega_tools][subdir] = "contrib"
 
-projects[views_nivo_slider][version] = 1.11
-projects[views_nivo_slider][type] = "module"
-projects[views_nivo_slider][subdir] = "contrib"
-
 projects[ckeditor][version] = 1.14
 projects[ckeditor][type] = "module"
 projects[ckeditor][subdir] = "contrib"
 
-projects[colorbox][version] = 1.14
+projects[colorbox][version] = 2.7
 projects[colorbox][type] = "module"
 projects[colorbox][subdir] = "contrib"
 
-projects[weight][version] = 1.14
+projects[weight][version] = 2.3
 projects[weight][type] = "module"
 projects[weight][subdir] = "contrib"
 
-projects[picture][version] = 1.14
+projects[picture][version] = 2.4
 projects[picture][type] = "module"
 projects[picture][subdir] = "contrib"
 
-projects[scroll_to_destination_anchors][version] = 1.14
+projects[scroll_to_destination_anchors][version] = 1.2
 projects[scroll_to_destination_anchors][type] = "module"
 projects[scroll_to_destination_anchors][subdir] = "contrib"
 
-projects[tipsy][version] = 1.14
+projects[tipsy][version] = 1.0-rc1
 projects[tipsy][type] = "module"
 projects[tipsy][subdir] = "contrib"
 
