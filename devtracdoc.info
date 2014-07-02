@@ -23,4 +23,3 @@ dependencies[] = book_helper
 dependencies[] = omega_tools
 dependencies[] = ckeditor
 dependencies[] = delta
-dependencies[] = views_nivo_slider
