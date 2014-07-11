@@ -17,9 +17,31 @@ dependencies[] = features
 dependencies[] = entity
 dependencies[] = strongarm
 dependencies[] = jquery_update
+dependencies[] = file_entity
 dependencies[] = media
 dependencies[] = wysiwyg
+dependencies[] = book
 dependencies[] = book_helper
 dependencies[] = omega_tools
 dependencies[] = ckeditor
 dependencies[] = delta
+dependencies[] = colorbox
+dependencies[] = colorbox_node
+dependencies[] = weight
+dependencies[] = picture
+dependencies[] = field_collection
+dependencies[] = nice_menus
+dependencies[] = pane
+dependencies[] = views_flipped_table
+dependencies[] = devtrac7_theme
+dependencies[] = globalredirect
+dependencies[] = moopapi
+dependencies[] = botcha
+
+
+; Information added by drush on 2014-07-02
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "devtracdoc"
+datestamp = "1404296087"
+
