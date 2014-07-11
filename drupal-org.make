@@ -76,6 +76,10 @@ projects[colorbox][version] = 2.7
 projects[colorbox][type] = "module"
 projects[colorbox][subdir] = "contrib"
 
+projects[colorbox_node][version] = 3.3
+projects[colorbox_node][type] = "module"
+projects[colorbox_node][subdir] = "contrib"
+
 projects[weight][version] = 2.3
 projects[weight][type] = "module"
 projects[weight][subdir] = "contrib"
@@ -84,13 +88,49 @@ projects[picture][version] = 2.4
 projects[picture][type] = "module"
 projects[picture][subdir] = "contrib"
 
-projects[scroll_to_destination_anchors][version] = 1.2
-projects[scroll_to_destination_anchors][type] = "module"
-projects[scroll_to_destination_anchors][subdir] = "contrib"
-
 projects[tipsy][version] = 1.0-rc1
 projects[tipsy][type] = "module"
 projects[tipsy][subdir] = "contrib"
+
+projects[field_collection][version] = 7.x-1.0-beta7
+projects[field_collection][type] = "module"
+projects[field_collection][subdir] = "contrib"
+
+projects[file_entity][version] = 1.0-rc1
+projects[file_entity][type] = "module"
+projects[file_entity][subdir] = "contrib"
+
+projects[nice_menus][version] = 7.x-2.5
+projects[nice_menus][type] = "module"
+projects[nice_menus][subdir] = "contrib"
+
+projects[pane][version] = 2.5
+projects[pane][type] = "module"
+projects[pane][subdir] = "contrib"
+
+projects[views_flipped_table][version] = 1.0
+projects[views_flipped_table][type] = "module"
+projects[views_flipped_table][subdir] = "contrib"
+
+projects[globalredirect][version] = 1.5
+projects[globalredirect][type] = "module"
+projects[globalredirect][subdir] = "contrib"
+
+projects[transliteration][version] = 3.2
+projects[transliteration][type] = "module"
+projects[transliteration][subdir] = "contrib"
+
+projects[webform2vtiger][version] = 1.0
+projects[webform2vtiger][type] = "module"
+projects[webform2vtiger][subdir] = "contrib"
+
+projects[moopapi][version] = 1.2
+projects[moopapi][type] = "module"
+projects[moopapi][subdir] = "contrib"
+
+projects[botcha][version] = 3.3
+projects[botcha][type] = "module"
+projects[botcha][subdir] = "contrib"
 
 ; Base theme.
 projects[omega][version] = 3.1
@@ -98,10 +138,10 @@ projects[omega][type] = "theme"
 projects[omega][subdir] = "themes"
 
 ;Main theme
-projects[devtrac_theme][type] = "theme"
-projects[devtrac_theme][download][type] = "git"
-projects[devtrac_theme][download][branch] = 7.x-1.x
-projects[devtrac_theme][download][url] = "http://git.drupal.org/project/devtrac_theme.git "
+projects[devtrac7_theme][type] = "theme"
+projects[devtrac7_theme][download][type] = "git"
+projects[devtrac7_theme][download][branch] = 7.x-1.x
+projects[devtrac7_theme][download][url] = "http://git.drupal.org/project/devtrac7_theme.git"
 
 ; Libraries
 libraries[ckeditor][download][type] = "file"
