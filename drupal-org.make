@@ -139,9 +139,7 @@ projects[omega][subdir] = "themes"
 
 ;Main theme
 projects[devtrac7_theme][type] = "theme"
-projects[devtrac7_theme][download][type] = "git"
-projects[devtrac7_theme][download][branch] = 7.x-1.x
-projects[devtrac7_theme][download][url] = "http://git.drupal.org/project/devtrac7_theme.git"
+projects[devtrac7_theme][subdir] = "themes"
 
 ; Libraries
 libraries[ckeditor][download][type] = "file"
