@@ -96,7 +96,7 @@ projects[field_collection][version] = 1.0-beta7
 projects[field_collection][type] = "module"
 projects[field_collection][subdir] = "contrib"
 
-projects[file_entity][version] = 1.0-rc1
+projects[file_entity][version] = 2.0-alpha3
 projects[file_entity][type] = "module"
 projects[file_entity][subdir] = "contrib"
 
