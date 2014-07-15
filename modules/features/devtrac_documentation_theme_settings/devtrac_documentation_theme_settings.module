@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Devtrac Documentation Theme settings feature.
+ */
+
+include_once 'devtrac_documentation_theme_settings.features.inc';
