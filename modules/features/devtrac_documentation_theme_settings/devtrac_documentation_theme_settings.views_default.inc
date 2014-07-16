@@ -411,7 +411,7 @@ Suitable for small personal projects that require report writing and distributio
   $handler->display->display_options['fields']['field_image']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_image']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_image']['settings'] = array(
-    'image_style' => 'slideshow_style',
+    'image_style' => '',
     'image_link' => '',
   );
   /* Field: Content: Title */
@@ -826,7 +826,7 @@ Suitable for small personal projects that require report writing and distributio
   );
   $handler->display->display_options['path'] = 'quick-tour';
   $handler->display->display_options['menu']['type'] = 'normal';
-  $handler->display->display_options['menu']['title'] = 'Quick Tour';
+  $handler->display->display_options['menu']['title'] = 'Tour';
   $handler->display->display_options['menu']['weight'] = '0';
   $handler->display->display_options['menu']['name'] = 'main-menu';
   $handler->display->display_options['menu']['context'] = 0;
