@@ -4,7 +4,6 @@ package = DevtracOrg
 dependencies[] = ctools
 dependencies[] = delta
 dependencies[] = strongarm
-features[ckeditor_profile][] = Full
 features[ctools][] = delta:delta:3
 features[ctools][] = strongarm:strongarm:1
 features[delta][] = informationalpages

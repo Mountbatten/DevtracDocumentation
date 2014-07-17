@@ -82,7 +82,6 @@ function devtrac_org_theme_settings_delta_default_templates() {
         2 => 0,
         3 => 0,
       ),
-      'alpha_toggle_tabs' => 0,
       'alpha_region_filter_columns' => '8',
       'alpha_region_filter_weight' => '1',
       'alpha_region_header_first_zone' => NULL,
