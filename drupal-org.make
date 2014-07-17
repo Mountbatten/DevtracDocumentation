@@ -164,6 +164,10 @@ projects[metatag][version] = 1.0-rc1
 projects[metatag][type] = "module"
 projects[metatag][subdir] = "contrib"
 
+projects[tokentokentoken][version] = 1.5
+projects[tokentoken][type] = "module"
+projects[token][subdir] = "contrib"
+
 ; Base theme.
 projects[omega][version] = 3.1
 projects[omega][type] = "theme"
