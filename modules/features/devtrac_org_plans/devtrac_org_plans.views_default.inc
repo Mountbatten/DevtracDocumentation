@@ -11,9 +11,9 @@ function devtrac_org_plans_views_default_views() {
   $export = array();
 
   $view = new view();
-  $view->name = 'nodequeue_2';
+  $view->name = 'plans_page';
   $view->description = 'Display a list of all Support Packages on the support page';
-  $view->tag = 'nodequeue';
+  $view->tag = 'content';
   $view->base_table = 'node';
   $view->human_name = 'Support Packages';
   $view->core = 0;
@@ -269,7 +269,7 @@ function devtrac_org_plans_views_default_views() {
   $handler->display->display_options['menu']['name'] = 'main-menu';
   $handler->display->display_options['menu']['context'] = 0;
   $handler->display->display_options['menu']['context_only_inline'] = 0;
-  $export['nodequeue_2'] = $view;
+  $export['plans_page'] = $view;
 
   return $export;
 }

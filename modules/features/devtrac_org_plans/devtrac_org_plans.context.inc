@@ -19,7 +19,7 @@ function devtrac_org_plans_context_default_contexts() {
   $context->conditions = array(
     'views' => array(
       'values' => array(
-        'nodequeue_2:page' => 'nodequeue_2:page',
+        'plans_page:page' => 'plans_page:page',
       ),
     ),
   );
