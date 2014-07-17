@@ -59,7 +59,7 @@ function devtrac_org_frontpage_default_pane_data() {
   $template->container = 'social_links_footer';
   $template->lang = 'und';
   $template->data = array(
-    'value' => '<p><img alt="" src="http://localhost/documentation/sites/all/themes/devtrac7_theme/images/devtracorg-images/nice-facebook.png" style="line-height:1.6" />&nbsp;<img alt="" src="http://localhost/documentation/sites/all/themes/devtrac7_theme/images/devtracorg-images/nice-drupal.png" />&nbsp;<img alt="" src="http://localhost/documentation/sites/all/themes/devtrac7_theme/images/devtracorg-images/nice-twitter.png" />&nbsp;<img alt="" src="http://localhost/documentation/sites/all/themes/devtrac7_theme/images/devtracorg-images/nice-google.png" style="line-height:1.6" /><span style="line-height:1.6">&nbsp;</span><span style="line-height:1.6">&nbsp;</span></p>
+    'value' => '<p><img alt="" src="/profiles/devtracdoc/themes/devtrac7_theme/images/devtracorg-images/nice-facebook.png" style="line-height:1.6" />&nbsp;<img alt="" src="/profiles/devtracdoc/themes/devtrac7_theme/images/devtracorg-images/nice-drupal.png" />&nbsp;<img alt="" src="/profiles/devtracdoc/themes/devtrac7_theme/images/devtracorg-images/nice-twitter.png" />&nbsp;<img alt="" src="/profiles/devtracdoc/themes/devtrac7_theme/images/devtracorg-images/nice-google.png" style="line-height:1.6" />&nbsp;&nbsp;</p>
 ',
     'format' => 'full_html',
     'title' => '',

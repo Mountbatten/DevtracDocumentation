@@ -111,11 +111,6 @@ function devtrac_org_frontpage_views_default_views() {
   $handler->display->display_options['filters']['type']['value'] = array(
     'banner_images' => 'banner_images',
   );
-  /* Filter criterion: Content: Nid */
-  $handler->display->display_options['filters']['nid']['id'] = 'nid';
-  $handler->display->display_options['filters']['nid']['table'] = 'node';
-  $handler->display->display_options['filters']['nid']['field'] = 'nid';
-  $handler->display->display_options['filters']['nid']['value']['value'] = '55';
   $handler->display->display_options['path'] = 'home';
   $export['home_page_slideshow'] = $view;
 

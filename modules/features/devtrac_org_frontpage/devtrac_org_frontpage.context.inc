@@ -24,16 +24,6 @@ function devtrac_org_frontpage_context_default_contexts() {
     ),
   );
   $context->reactions = array(
-    'block' => array(
-      'blocks' => array(
-        'simplenews-6' => array(
-          'module' => 'simplenews',
-          'delta' => '6',
-          'region' => 'content',
-          'weight' => '-21',
-        ),
-      ),
-    ),
     'delta' => array(
       'delta_template' => 'slideshow_layout',
     ),
