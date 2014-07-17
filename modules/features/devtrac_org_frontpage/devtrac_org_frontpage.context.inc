@@ -30,7 +30,7 @@ function devtrac_org_frontpage_context_default_contexts() {
           'module' => 'simplenews',
           'delta' => '6',
           'region' => 'content',
-          'weight' => '21',
+          'weight' => '-21',
         ),
       ),
     ),

@@ -29,19 +29,8 @@ function devtrac_org_frontpage_views_default_views() {
   $handler->display->display_options['exposed_form']['type'] = 'basic';
   $handler->display->display_options['pager']['type'] = 'some';
   $handler->display->display_options['pager']['options']['items_per_page'] = '10';
-  $handler->display->display_options['style_plugin'] = 'views_nivo_slider';
-  $handler->display->display_options['style_options']['nivo_version'] = '3.x';
-  $handler->display->display_options['style_options']['effect'] = array(
-    'random' => 'random',
-  );
-  $handler->display->display_options['style_options']['controlNav'] = 'thumbsIC';
-  $handler->display->display_options['style_options']['controlNavThumbsField'] = 'title';
-  $handler->display->display_options['style_options']['controlNavThumbsIC'] = 'thumbnail';
-  $handler->display->display_options['style_options']['pauseOnHover'] = 'false';
-  $handler->display->display_options['row_plugin'] = 'nivo_sliderfields';
-  $handler->display->display_options['row_options']['image_field'] = 'field_image';
-  $handler->display->display_options['row_options']['title_field'] = 'title';
-  $handler->display->display_options['row_options']['link_field'] = 'title';
+  $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['row_plugin'] = 'fields';
   /* Field: Content: Title */
   $handler->display->display_options['fields']['title']['id'] = 'title';
   $handler->display->display_options['fields']['title']['table'] = 'node';
