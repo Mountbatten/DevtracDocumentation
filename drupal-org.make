@@ -132,6 +132,38 @@ projects[botcha][version] = 3.3
 projects[botcha][type] = "module"
 projects[botcha][subdir] = "contrib"
 
+projects[piwik][version] = 2.5
+projects[piwik][type] = "module"
+projects[piwik][subdir] = "contrib"
+
+projects[pathauto][version] = 1.2
+projects[pathauto][type] = "module"
+projects[pathauto][subdir] = "contrib"
+
+projects[css_browser_selector][version] = 1.1
+projects[css_browser_selector][type] = "module"
+projects[css_browser_selector][subdir] = "contrib"
+
+projects[publishcontent][version] = 1.3
+projects[publishcontent][type] = "module"
+projects[publishcontent][subdir] = "contrib"
+
+projects[advanced_help][version] = 1.1
+projects[advanced_help][type] = "module"
+projects[advanced_help][subdir] = "contrib"
+
+projects[search_config][version] = 1.1
+projects[search_config][type] = "module"
+projects[search_config][subdir] = "contrib"
+
+projects[xmlsitemap][version] = 2.0
+projects[xmlsitemap][type] = "module"
+projects[xmlsitemap][subdir] = "contrib"
+
+projects[metatag][version] = 1.0-rc1
+projects[metatag][type] = "module"
+projects[metatag][subdir] = "contrib"
+
 ; Base theme.
 projects[omega][version] = 3.1
 projects[omega][type] = "theme"
