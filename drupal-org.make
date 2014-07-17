@@ -164,8 +164,8 @@ projects[metatag][version] = 1.0-rc1
 projects[metatag][type] = "module"
 projects[metatag][subdir] = "contrib"
 
-projects[tokentokentoken][version] = 1.5
-projects[tokentoken][type] = "module"
+projects[token][version] = 1.5
+projects[token][type] = "module"
 projects[token][subdir] = "contrib"
 
 ; Base theme.
@@ -176,6 +176,9 @@ projects[omega][subdir] = "themes"
 ;Main theme
 projects[devtrac7_theme][type] = "theme"
 projects[devtrac7_theme][subdir] = "themes"
+projects[devtrac7_theme][download][type] = "git"
+projects[devtrac7_theme][download][branch] = 7.x-1.x
+projects[devtrac7_theme][download][url] = "http://git.drupal.org/project/devtrac7_theme.git"
 
 ; Libraries
 libraries[ckeditor][download][type] = "file"
