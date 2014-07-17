@@ -171,11 +171,9 @@ projects[token][subdir] = "contrib"
 ; Base theme.
 projects[omega][version] = 3.1
 projects[omega][type] = "theme"
-projects[omega][subdir] = "themes"
 
 ;Main theme
 projects[devtrac7_theme][type] = "theme"
-projects[devtrac7_theme][subdir] = "themes"
 projects[devtrac7_theme][download][type] = "git"
 projects[devtrac7_theme][download][branch] = 7.x-1.x
 projects[devtrac7_theme][download][url] = "http://git.drupal.org/project/devtrac7_theme.git"
