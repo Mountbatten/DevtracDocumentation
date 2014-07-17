@@ -176,6 +176,10 @@ projects[diff][version] = 3.2
 projects[diff][type] = "module"
 projects[diff][subdir] = "contrib"
 
+projects[breakpoints][version] = 1.2
+projects[breakpoints][type] = "module"
+projects[breakpoints][subdir] = "contrib"
+
 ; Base theme.
 projects[omega][version] = 3.1
 projects[omega][type] = "theme"

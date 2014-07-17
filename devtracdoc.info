@@ -30,6 +30,7 @@ dependencies[] = colorbox
 dependencies[] = colorbox_node
 dependencies[] = weight
 dependencies[] = picture
+dependencies[] = breakpoints
 dependencies[] = field_collection
 dependencies[] = nice_menus
 dependencies[] = pane
