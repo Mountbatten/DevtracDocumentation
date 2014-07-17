@@ -168,13 +168,13 @@ projects[token][version] = 1.5
 projects[token][type] = "module"
 projects[token][subdir] = "contrib"
 
-projects[views_nivo_slider][version] = 3.x-dev
-projects[views_nivo_slider][type] = "module"
-projects[views_nivo_slider][subdir] = "contrib"
-
 projects[simplenews][version] = 1.1
 projects[simplenews][type] = "module"
 projects[simplenews][subdir] = "contrib"
+
+projects[diff][version] = 3.2
+projects[diff][type] = "module"
+projects[diff][subdir] = "contrib"
 
 ; Base theme.
 projects[omega][version] = 3.1
