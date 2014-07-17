@@ -33,10 +33,12 @@ dependencies[] = field_collection
 dependencies[] = nice_menus
 dependencies[] = pane
 dependencies[] = views_flipped_table
-dependencies[] = devtrac7_theme
 dependencies[] = globalredirect
 dependencies[] = moopapi
 dependencies[] = botcha
+dependencies[] = simplenews
+dependencies[] = devtrac_org_theme_settings
+dependencies[] = devtrac_org_frontpage
 
 
 ; Information added by drush on 2014-07-02
