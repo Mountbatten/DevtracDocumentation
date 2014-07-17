@@ -1,7 +1,7 @@
 api = 2
 core = 7.x
 
-projects[drupal][version] = 7.28
+projects[drupal][version] = 7.29
 
 ; Pull the project from git
 projects[devtracdoc][type] = "profile"
