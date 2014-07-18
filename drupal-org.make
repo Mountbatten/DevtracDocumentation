@@ -88,14 +88,6 @@ projects[picture][version] = 2.4
 projects[picture][type] = "module"
 projects[picture][subdir] = "contrib"
 
-projects[tipsy][version] = 1.0-rc1
-projects[tipsy][type] = "module"
-projects[tipsy][subdir] = "contrib"
-
-projects[field_collection][version] = 1.0-beta7
-projects[field_collection][type] = "module"
-projects[field_collection][subdir] = "contrib"
-
 projects[file_entity][version] = 2.0-alpha3
 projects[file_entity][type] = "module"
 projects[file_entity][subdir] = "contrib"
