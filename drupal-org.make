@@ -180,6 +180,10 @@ projects[breakpoints][version] = 1.2
 projects[breakpoints][type] = "module"
 projects[breakpoints][subdir] = "contrib"
 
+projects[chosen][version] = 2.0-beta4
+projects[chosen][type] = "module"
+projects[chosen][subdir] = "contrib"
+
 ; Base theme.
 projects[omega][version] = 3.1
 projects[omega][type] = "theme"
@@ -200,3 +204,9 @@ libraries[colorbox][download][type] = "file"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.x.zip"
 libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][destination] = "libraries"
+
+libraries[chosen][download][type] = "file"
+libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/releases/download/v1.1.0/chosen_v1.1.0.zip"
+libraries[chosen][directory_name] = "chosen"
+libraries[chosen][destination] = "libraries"
+
