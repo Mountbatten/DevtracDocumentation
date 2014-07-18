@@ -24,6 +24,22 @@ function devtrac_org_frontpage_context_default_contexts() {
     ),
   );
   $context->reactions = array(
+    'block' => array(
+      'blocks' => array(
+        'pane-front_page_information' => array(
+          'module' => 'pane',
+          'delta' => 'front_page_information',
+          'region' => 'content',
+          'weight' => '-10',
+        ),
+        'simplenews-6' => array(
+          'module' => 'simplenews',
+          'delta' => '6',
+          'region' => 'content',
+          'weight' => '-9',
+        ),
+      ),
+    ),
     'delta' => array(
       'delta_template' => 'slideshow_layout',
     ),

@@ -28,20 +28,3 @@ function devtrac_org_frontpage_ctools_plugin_api($module = NULL, $api = NULL) {
 function devtrac_org_frontpage_views_api($module = NULL, $api = NULL) {
   return array("api" => "3.0");
 }
-
-/**
- * Implements hook_node_info().
- */
-function devtrac_org_frontpage_node_info() {
-  $items = array(
-    'banner_images' => array(
-      'name' => t('Banner Image'),
-      'base' => 'node_content',
-      'description' => t('For adding a new image on the home page'),
-      'has_title' => '1',
-      'title_label' => t('Title'),
-      'help' => '',
-    ),
-  );
-  return $items;
-}
