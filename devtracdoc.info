@@ -30,7 +30,6 @@ dependencies[] = chosen
 dependencies[] = weight
 dependencies[] = picture
 dependencies[] = breakpoints
-dependencies[] = field_collection
 dependencies[] = nice_menus
 dependencies[] = pane
 dependencies[] = views_flipped_table
