@@ -32,9 +32,9 @@ function devtrac_org_frontpage_context_default_contexts() {
           'region' => 'content',
           'weight' => '-10',
         ),
-        'simplenews-6' => array(
-          'module' => 'simplenews',
-          'delta' => '6',
+        'simple_subscription-subscribe' => array(
+          'module' => 'simple_subscription',
+          'delta' => 'subscribe',
           'region' => 'content',
           'weight' => '-9',
         ),

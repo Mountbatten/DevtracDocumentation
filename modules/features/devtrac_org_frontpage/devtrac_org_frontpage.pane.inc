@@ -24,7 +24,7 @@ function devtrac_org_frontpage_default_pane_container() {
   $template->disabled = FALSE; /* Edit this to true to make a default template disabled initially */
   $template->api_version = 2;
   $template->name = 'front_page_information';
-  $template->title = 'Front Page Information';
+  $template->title = '';
   $template->plugin = 'text';
   $template->description = 'Block with the information on the front page';
   $template->configuration = '';
@@ -69,7 +69,8 @@ function devtrac_org_frontpage_default_pane_data() {
   $template->container = 'front_page_information';
   $template->lang = 'und';
   $template->data = array(
-    'value' => '<p>A web application monitoring schools, heath centers, water points and development</p>
+    'value' => '<h4>A WEB TOOL BUILT TO  MONITOR STATUS OF  NATIONAL SERVICES</h4>
+<p>A web application monitoring schools, heath centers, water points and development</p>
 
 <div id="banner-links"><span class="download"><a href="https://www.drupal.org/project/devtrac">Download</a></span> &nbsp;<span class="quick-tour"><a href="http://tour">Quick Tour</a></span></div></p>',
     'format' => 'full_html',

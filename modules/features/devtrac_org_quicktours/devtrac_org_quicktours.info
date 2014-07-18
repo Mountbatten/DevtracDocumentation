@@ -1,6 +1,7 @@
 name = DevTrac Org Quicktours
 core = 7.x
 package = DevtracOrg
+dependencies[] = context
 dependencies[] = devtrac_org_frontpage
 dependencies[] = media
 dependencies[] = text
@@ -10,6 +11,8 @@ features[ctools][] = context:context:3
 features[ctools][] = strongarm:strongarm:1
 features[ctools][] = views:views_default:3.0
 features[features_api][] = api:2
+features[field_base][] = body
+features[field_base][] = field_image
 features[field_instance][] = node-quick_tour-body
 features[field_instance][] = node-quick_tour-field_image
 features[image][] = quick_tour_images
