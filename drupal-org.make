@@ -124,14 +124,6 @@ projects[webform2vtiger][version] = 1.0
 projects[webform2vtiger][type] = "module"
 projects[webform2vtiger][subdir] = "contrib"
 
-projects[moopapi][version] = 1.2
-projects[moopapi][type] = "module"
-projects[moopapi][subdir] = "contrib"
-
-projects[botcha][version] = 3.3
-projects[botcha][type] = "module"
-projects[botcha][subdir] = "contrib"
-
 projects[piwik][version] = 2.5
 projects[piwik][type] = "module"
 projects[piwik][subdir] = "contrib"
