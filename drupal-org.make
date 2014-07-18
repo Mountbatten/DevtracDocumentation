@@ -176,6 +176,10 @@ projects[chosen][version] = 2.0-beta4
 projects[chosen][type] = "module"
 projects[chosen][subdir] = "contrib"
 
+projects[schemaorg][version] = 1.0-beta4
+projects[schemaorg][type] = "module"
+projects[schemaorg][subdir] = "contrib"
+
 ; Base theme.
 projects[omega][version] = 3.1
 projects[omega][type] = "theme"
