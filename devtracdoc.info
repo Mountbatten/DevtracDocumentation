@@ -37,8 +37,9 @@ dependencies[] = views_flipped_table
 dependencies[] = globalredirect
 dependencies[] = moopapi
 dependencies[] = botcha
-dependencies[] = simplenews
+dependencies[] = simple_subscription
 dependencies[] = devtrac_org_theme_settings
+dependencies[] = devtrac_org_quicktours
 dependencies[] = devtrac_org_frontpage
 
 

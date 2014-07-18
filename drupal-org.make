@@ -168,9 +168,9 @@ projects[token][version] = 1.5
 projects[token][type] = "module"
 projects[token][subdir] = "contrib"
 
-projects[simplenews][version] = 1.1
-projects[simplenews][type] = "module"
-projects[simplenews][subdir] = "contrib"
+projects[simple_subscription][version] = 1.0
+projects[simple_subscription][type] = "module"
+projects[simple_subscription][subdir] = "contrib"
 
 projects[diff][version] = 3.2
 projects[diff][type] = "module"
