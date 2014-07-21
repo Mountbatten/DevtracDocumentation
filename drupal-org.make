@@ -28,7 +28,7 @@ projects[wysiwyg][version] = 2.2
 projects[wysiwyg][type] = "module"
 projects[wysiwyg][subdir] = "contrib"
 
-projects[views][version] = 3.7
+projects[views][version] = 3.8
 projects[views][type] = "module"
 projects[views][subdir] = "contrib"
 
@@ -68,7 +68,7 @@ projects[omega_tools][version] = 3.0-rc4
 projects[omega_tools][type] = "module"
 projects[omega_tools][subdir] = "contrib"
 
-projects[ckeditor][version] = 1.14
+projects[ckeditor][version] = 1.15
 projects[ckeditor][type] = "module"
 projects[ckeditor][subdir] = "contrib"
 
@@ -179,6 +179,26 @@ projects[chosen][subdir] = "contrib"
 projects[schemaorg][version] = 1.0-beta4
 projects[schemaorg][type] = "module"
 projects[schemaorg][subdir] = "contrib"
+
+projects[better_messages][version] = 1.x-dev
+projects[better_messages][type] = "module"
+projects[better_messages][subdir] = "contrib"
+
+projects[devel][version] = 1.5
+projects[devel][type] = "module"
+projects[devel][subdir] = "contrib"
+
+projects[faq][version] = 1.0-rc2
+projects[faq][type] = "module"
+projects[faq][subdir] = "contrib"
+
+projects[simplenews][version] = 1.1
+projects[simplenews][type] = "module"
+projects[simplenews][subdir] = "contrib"
+
+projects[glossify][version] = 4.0-beta1
+projects[glossify][type] = "module"
+projects[glossify][subdir] = "contrib"
 
 ; Base theme.
 projects[omega][version] = 3.1
