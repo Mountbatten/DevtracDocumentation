@@ -52,7 +52,7 @@ projects[libraries][version] = 3.x-dev
 projects[libraries][type] = "module"
 projects[libraries][subdir] = "contrib"
 
-projects[media][version] = 1.4
+projects[media][version] = 2.0-alpha3
 projects[media][type] = "module"
 projects[media][subdir] = "contrib"
 
