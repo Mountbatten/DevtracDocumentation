@@ -68,10 +68,6 @@ projects[omega_tools][version] = 3.0-rc4
 projects[omega_tools][type] = "module"
 projects[omega_tools][subdir] = "contrib"
 
-projects[ckeditor][version] = 1.15
-projects[ckeditor][type] = "module"
-projects[ckeditor][subdir] = "contrib"
-
 projects[colorbox][version] = 2.7
 projects[colorbox][type] = "module"
 projects[colorbox][subdir] = "contrib"

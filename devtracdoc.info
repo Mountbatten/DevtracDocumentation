@@ -24,7 +24,6 @@ dependencies[] = book
 dependencies[] = block
 dependencies[] = book_helper
 dependencies[] = omega_tools
-dependencies[] = ckeditor
 dependencies[] = delta
 dependencies[] = chosen
 dependencies[] = weight
