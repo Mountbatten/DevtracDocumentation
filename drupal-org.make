@@ -205,3 +205,9 @@ libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/releases
 libraries[chosen][directory_name] = "chosen"
 libraries[chosen][destination] = "libraries"
 
+libraries[mountbatten_web_media][download][type] = "file"
+libraries[mountbatten_web_media][download][url] = "https://github.com/benjaminug/mountbatten_web_media/archive/master.zip"
+libraries[mountbatten_web_media][directory_name] = "mountbatten_web_media"
+libraries[mountbatten_web_media][destination] = "features"
+
+
