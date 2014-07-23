@@ -24,9 +24,7 @@ projects[strongarm][version] = 2.0
 projects[strongarm][type] = "module"
 projects[strongarm][subdir] = "contrib"
 
-projects[wysiwyg][version] = 2.2
-projects[wysiwyg][type] = "module"
-projects[wysiwyg][subdir] = "contrib"
+
 
 projects[views][version] = 3.8
 projects[views][type] = "module"
@@ -52,10 +50,6 @@ projects[libraries][version] = 3.x-dev
 projects[libraries][type] = "module"
 projects[libraries][subdir] = "contrib"
 
-projects[media][version] = 2.0-alpha3
-projects[media][type] = "module"
-projects[media][subdir] = "contrib"
-
 projects[book_helper][version] = 1.0-beta2
 projects[book_helper][type] = "module"
 projects[book_helper][subdir] = "contrib"
@@ -80,9 +74,7 @@ projects[weight][version] = 2.3
 projects[weight][type] = "module"
 projects[weight][subdir] = "contrib"
 
-projects[picture][version] = 2.4
-projects[picture][type] = "module"
-projects[picture][subdir] = "contrib"
+
 
 projects[file_entity][version] = 2.0-alpha3
 projects[file_entity][type] = "module"
@@ -165,10 +157,6 @@ projects[diff][version] = 3.2
 projects[diff][type] = "module"
 projects[diff][subdir] = "contrib"
 
-projects[breakpoints][version] = 1.2
-projects[breakpoints][type] = "module"
-projects[breakpoints][subdir] = "contrib"
-
 projects[chosen][version] = 2.0-beta4
 projects[chosen][type] = "module"
 projects[chosen][subdir] = "contrib"
@@ -206,12 +194,6 @@ projects[devtrac7_theme][type] = "theme"
 projects[devtrac7_theme][download][type] = "git"
 projects[devtrac7_theme][download][branch] = 7.x-1.x
 projects[devtrac7_theme][download][url] = "http://git.drupal.org/project/devtrac7_theme.git"
-
-; Libraries
-libraries[ckeditor][download][type] = "file"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6/ckeditor_3.6.6.zip"
-libraries[ckeditor][directory_name] = "ckeditor"
-libraries[ckeditor][destination] = "libraries"
 
 libraries[colorbox][download][type] = "file"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.x.zip"
