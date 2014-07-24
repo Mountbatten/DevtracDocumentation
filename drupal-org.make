@@ -185,6 +185,12 @@ projects[glossify][version] = 4.0-beta1
 projects[glossify][type] = "module"
 projects[glossify][subdir] = "contrib"
 
+projects[mountbatten_web_media][type] = "module"
+projects[mountbatten_web_media][download][type] = "git"
+projects[mountbatten_web_media][download][url] = "git://github.com/benjaminug/mountbatten_web_media.git"
+projects[mountbatten_web_media][directory_name] = "mountbatten_web_media"
+projects[mountbatten_web_media][destination] = "features"
+
 ; Base theme.
 projects[omega][version] = 3.1
 projects[omega][type] = "theme"
@@ -204,10 +210,3 @@ libraries[chosen][download][type] = "file"
 libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/releases/download/v1.1.0/chosen_v1.1.0.zip"
 libraries[chosen][directory_name] = "chosen"
 libraries[chosen][destination] = "libraries"
-
-libraries[mountbatten_web_media][download][type] = "file"
-libraries[mountbatten_web_media][download][url] = "https://github.com/benjaminug/mountbatten_web_media/archive/master.zip"
-libraries[mountbatten_web_media][directory_name] = "mountbatten_web_media"
-libraries[mountbatten_web_media][destination] = "features"
-
-
