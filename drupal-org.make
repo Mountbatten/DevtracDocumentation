@@ -84,10 +84,11 @@ projects[nice_menus][version] = 2.5
 projects[nice_menus][type] = "module"
 projects[nice_menus][subdir] = "contrib"
 
-projects[pane][version] = 2.5
 projects[pane][type] = "module"
+projects[pane][download][type] = "git"
+projects[pane][download][url] = "git://github.com/benjaminug/pane.git"
+projects[pane][directory_name] = "pane"
 projects[pane][subdir] = "contrib"
-projects[pane][patch][2119593] = "https://www.drupal.org/files/issues/pane-remove-wrapper-markup-2119593-3.patch"
 
 projects[views_flipped_table][version] = 1.0
 projects[views_flipped_table][type] = "module"
