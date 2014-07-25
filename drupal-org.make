@@ -102,14 +102,6 @@ projects[webform2vtiger][version] = 1.0
 projects[webform2vtiger][type] = "module"
 projects[webform2vtiger][subdir] = "contrib"
 
-projects[moopapi][version] = 1.2
-projects[moopapi][type] = "module"
-projects[moopapi][subdir] = "contrib"
-
-projects[botcha][version] = 3.3
-projects[botcha][type] = "module"
-projects[botcha][subdir] = "contrib"
-
 projects[piwik][version] = 2.5
 projects[piwik][type] = "module"
 projects[piwik][subdir] = "contrib"
@@ -187,6 +179,12 @@ projects[mountbatten_web_media][download][type] = "git"
 projects[mountbatten_web_media][download][url] = "git://github.com/benjaminug/mountbatten_web_media.git"
 projects[mountbatten_web_media][directory_name] = "mountbatten_web_media"
 projects[mountbatten_web_media][subdir] = "features"
+
+projects[mountbatten_spam_protection][type] = "module"
+projects[mountbatten_spam_protection][download][type] = "git"
+projects[mountbatten_spam_protection][download][url] = "git://github.com/benjaminug/mountbatten_spam_protection.git"
+projects[mountbatten_spam_protection][directory_name] = "mountbatten_spam_protection"
+projects[mountbatten_spam_protection][subdir] = "features"
 
 ; Base theme.
 projects[omega][version] = 3.1
