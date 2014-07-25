@@ -13,6 +13,20 @@ function devtrac_org_quicktours_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'colorbox_opacity';
+  $strongarm->value = '0.85';
+  $export['colorbox_opacity'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'colorbox_style';
+  $strongarm->value = 'profiles/devtracdoc/libraries/colorbox/example4';
+  $export['colorbox_style'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'comment_anonymous_quick_tour';
   $strongarm->value = 0;
   $export['comment_anonymous_quick_tour'] = $strongarm;
@@ -72,7 +86,7 @@ function devtrac_org_quicktours_strongarm() {
         'custom_settings' => TRUE,
       ),
       'colorbox' => array(
-        'custom_settings' => FALSE,
+        'custom_settings' => TRUE,
       ),
       'rss' => array(
         'custom_settings' => FALSE,
@@ -93,6 +107,12 @@ function devtrac_org_quicktours_strongarm() {
         'custom_settings' => FALSE,
       ),
       'email_textalt' => array(
+        'custom_settings' => FALSE,
+      ),
+      'diff_standard' => array(
+        'custom_settings' => FALSE,
+      ),
+      'token' => array(
         'custom_settings' => FALSE,
       ),
     ),

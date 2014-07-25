@@ -39,11 +39,10 @@ function devtrac_org_quicktours_views_default_views() {
   $handler->display->display_options['fields']['title']['label'] = '';
   $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
   $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
-  /* Sort criterion: Content: Post date */
-  $handler->display->display_options['sorts']['created']['id'] = 'created';
-  $handler->display->display_options['sorts']['created']['table'] = 'node';
-  $handler->display->display_options['sorts']['created']['field'] = 'created';
-  $handler->display->display_options['sorts']['created']['order'] = 'DESC';
+  /* Sort criterion: Weight: Weight */
+  $handler->display->display_options['sorts']['weight']['id'] = 'weight';
+  $handler->display->display_options['sorts']['weight']['table'] = 'weight_weights';
+  $handler->display->display_options['sorts']['weight']['field'] = 'weight';
   /* Filter criterion: Content: Published */
   $handler->display->display_options['filters']['status']['id'] = 'status';
   $handler->display->display_options['filters']['status']['table'] = 'node';
@@ -132,6 +131,10 @@ function devtrac_org_quicktours_views_default_views() {
   $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
   $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
   $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['title']['node_in_colorbox'] = TRUE;
+  $handler->display->display_options['fields']['title']['node_in_colorbox_width'] = '80%';
+  $handler->display->display_options['fields']['title']['node_in_colorbox_height'] = '70%';
+  $handler->display->display_options['fields']['title']['node_in_colorbox_rel'] = 'quick-tours-gallery';
   /* Field: Content: Image */
   $handler->display->display_options['fields']['field_image']['id'] = 'field_image';
   $handler->display->display_options['fields']['field_image']['table'] = 'field_data_field_image';
@@ -153,6 +156,10 @@ function devtrac_org_quicktours_views_default_views() {
   $handler->display->display_options['fields']['title_1']['alter']['alter_text'] = TRUE;
   $handler->display->display_options['fields']['title_1']['alter']['text'] = '[field_image]';
   $handler->display->display_options['fields']['title_1']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['title_1']['node_in_colorbox'] = TRUE;
+  $handler->display->display_options['fields']['title_1']['node_in_colorbox_width'] = '80%';
+  $handler->display->display_options['fields']['title_1']['node_in_colorbox_height'] = '70%';
+  $handler->display->display_options['fields']['title_1']['node_in_colorbox_rel'] = 'quick-tours-gallery';
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
   /* Filter criterion: Content: Published */
@@ -192,6 +199,10 @@ function devtrac_org_quicktours_views_default_views() {
   $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
   $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
   $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['title']['node_in_colorbox'] = TRUE;
+  $handler->display->display_options['fields']['title']['node_in_colorbox_width'] = '80%';
+  $handler->display->display_options['fields']['title']['node_in_colorbox_height'] = '70%';
+  $handler->display->display_options['fields']['title']['node_in_colorbox_rel'] = 'quick-tours-gallery';
   /* Field: Content: Image */
   $handler->display->display_options['fields']['field_image']['id'] = 'field_image';
   $handler->display->display_options['fields']['field_image']['table'] = 'field_data_field_image';
@@ -213,6 +224,10 @@ function devtrac_org_quicktours_views_default_views() {
   $handler->display->display_options['fields']['title_1']['alter']['alter_text'] = TRUE;
   $handler->display->display_options['fields']['title_1']['alter']['text'] = '[field_image]';
   $handler->display->display_options['fields']['title_1']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['title_1']['node_in_colorbox'] = TRUE;
+  $handler->display->display_options['fields']['title_1']['node_in_colorbox_width'] = '80%';
+  $handler->display->display_options['fields']['title_1']['node_in_colorbox_height'] = '70%';
+  $handler->display->display_options['fields']['title_1']['node_in_colorbox_rel'] = 'quick-tours-gallery';
 
   /* Display: Column3 */
   $handler = $view->new_display('block', 'Column3', 'block_3');
@@ -237,6 +252,10 @@ function devtrac_org_quicktours_views_default_views() {
   $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
   $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
   $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['title']['node_in_colorbox'] = TRUE;
+  $handler->display->display_options['fields']['title']['node_in_colorbox_width'] = '80%';
+  $handler->display->display_options['fields']['title']['node_in_colorbox_height'] = '70%';
+  $handler->display->display_options['fields']['title']['node_in_colorbox_rel'] = 'quick-tours-gallery';
   /* Field: Content: Image */
   $handler->display->display_options['fields']['field_image']['id'] = 'field_image';
   $handler->display->display_options['fields']['field_image']['table'] = 'field_data_field_image';
@@ -258,6 +277,10 @@ function devtrac_org_quicktours_views_default_views() {
   $handler->display->display_options['fields']['title_1']['alter']['alter_text'] = TRUE;
   $handler->display->display_options['fields']['title_1']['alter']['text'] = '[field_image]';
   $handler->display->display_options['fields']['title_1']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['title_1']['node_in_colorbox'] = TRUE;
+  $handler->display->display_options['fields']['title_1']['node_in_colorbox_width'] = '80%';
+  $handler->display->display_options['fields']['title_1']['node_in_colorbox_height'] = '70%';
+  $handler->display->display_options['fields']['title_1']['node_in_colorbox_rel'] = 'quick-tours-gallery';
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
   /* Filter criterion: Content: Published */
@@ -297,6 +320,10 @@ function devtrac_org_quicktours_views_default_views() {
   $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
   $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
   $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['title']['node_in_colorbox'] = TRUE;
+  $handler->display->display_options['fields']['title']['node_in_colorbox_width'] = '80%';
+  $handler->display->display_options['fields']['title']['node_in_colorbox_height'] = '70%';
+  $handler->display->display_options['fields']['title']['node_in_colorbox_rel'] = 'quick-tours-gallery';
   /* Field: Content: Image */
   $handler->display->display_options['fields']['field_image']['id'] = 'field_image';
   $handler->display->display_options['fields']['field_image']['table'] = 'field_data_field_image';
