@@ -24,8 +24,6 @@ projects[strongarm][version] = 2.0
 projects[strongarm][type] = "module"
 projects[strongarm][subdir] = "contrib"
 
-
-
 projects[views][version] = 3.8
 projects[views][type] = "module"
 projects[views][subdir] = "contrib"
@@ -73,8 +71,6 @@ projects[colorbox_node][subdir] = "contrib"
 projects[weight][version] = 2.3
 projects[weight][type] = "module"
 projects[weight][subdir] = "contrib"
-
-
 
 projects[file_entity][version] = 2.0-alpha3
 projects[file_entity][type] = "module"
@@ -190,7 +186,7 @@ projects[mountbatten_web_media][type] = "module"
 projects[mountbatten_web_media][download][type] = "git"
 projects[mountbatten_web_media][download][url] = "git://github.com/benjaminug/mountbatten_web_media.git"
 projects[mountbatten_web_media][directory_name] = "mountbatten_web_media"
-projects[mountbatten_web_media][destination] = "features"
+projects[mountbatten_web_media][subdir] = "features"
 
 ; Base theme.
 projects[omega][version] = 3.1
