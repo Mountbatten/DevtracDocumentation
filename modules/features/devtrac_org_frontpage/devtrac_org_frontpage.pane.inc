@@ -72,7 +72,7 @@ function devtrac_org_frontpage_default_pane_data() {
     'value' => '<h4>A WEB TOOL BUILT TO  MONITOR STATUS OF  NATIONAL SERVICES</h4>
 <p>A web application monitoring schools, heath centers, water points and development</p>
 
-<div id="banner-links"><span class="download"><a href="https://www.drupal.org/project/devtrac">Download</a></span> &nbsp;<span class="quick-tour"><a href="http://tour">Quick Tour</a></span></div></p>',
+<div id="banner-links"><span class="download"><a href="/demo">Demo</a></span> &nbsp;<span class="quick-tour"><a href="/tour">Quick Tour</a></span></div></p>',
     'format' => 'full_html',
     'title' => '',
   );
