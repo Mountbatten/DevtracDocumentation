@@ -13,20 +13,6 @@ function devtrac_org_quicktours_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'colorbox_opacity';
-  $strongarm->value = '0.85';
-  $export['colorbox_opacity'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'colorbox_style';
-  $strongarm->value = 'profiles/devtracdoc/libraries/colorbox/example4';
-  $export['colorbox_style'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'comment_anonymous_quick_tour';
   $strongarm->value = 0;
   $export['comment_anonymous_quick_tour'] = $strongarm;
@@ -72,6 +58,13 @@ function devtrac_org_quicktours_strongarm() {
   $strongarm->name = 'comment_subject_field_quick_tour';
   $strongarm->value = 1;
   $export['comment_subject_field_quick_tour'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'field_bundle_settings';
+  $strongarm->value = '';
+  $export['field_bundle_settings'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
