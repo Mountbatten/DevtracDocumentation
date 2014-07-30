@@ -67,6 +67,7 @@ projects[colorbox][subdir] = "contrib"
 projects[colorbox_node][version] = 3.3
 projects[colorbox_node][type] = "module"
 projects[colorbox_node][subdir] = "contrib"
+projects[colorbox_node][patch][] = "https://www.drupal.org/files/issues/colorbox_node-movefindHreffunction-2218251-8.patch"
 
 projects[weight][version] = 2.3
 projects[weight][type] = "module"
