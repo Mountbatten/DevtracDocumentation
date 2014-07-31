@@ -174,17 +174,10 @@ projects[glossify][version] = 4.0-beta1
 projects[glossify][type] = "module"
 projects[glossify][subdir] = "contrib"
 
-projects[mountbatten_web_media][type] = "module"
-projects[mountbatten_web_media][download][type] = "git"
-projects[mountbatten_web_media][download][url] = "git://github.com/benjaminug/mountbatten_web_media.git"
-projects[mountbatten_web_media][directory_name] = "mountbatten_web_media"
-projects[mountbatten_web_media][subdir] = "features"
-
-projects[mountbatten_spam_protection][type] = "module"
-projects[mountbatten_spam_protection][download][type] = "git"
-projects[mountbatten_spam_protection][download][url] = "git://github.com/benjaminug/mountbatten_spam_protection.git"
-projects[mountbatten_spam_protection][directory_name] = "mountbatten_spam_protection"
-projects[mountbatten_spam_protection][subdir] = "features"
+includes[mountbatten_web_analytics] = https://raw.githubusercontent.com/benjaminug/mountbatten_makefiles/master/mountbatten_web_analytics.make
+includes[mountbatten_seo] = https://raw.githubusercontent.com/benjaminug/mountbatten_makefiles/master/mountbatten_seo.make
+includes[mountbatten_spam_protection] = https://raw.githubusercontent.com/benjaminug/mountbatten_makefiles/master/mountbatten_spam_protection.make
+includes[mountbatten_web_media] = https://raw.githubusercontent.com/benjaminug/mountbatten_makefiles/master/mountbatten_web_media.make
 
 ; Base theme.
 projects[omega][version] = 3.1
