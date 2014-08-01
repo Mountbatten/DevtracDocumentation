@@ -184,10 +184,8 @@ projects[omega][version] = 3.1
 projects[omega][type] = "theme"
 
 ;Main theme
+projects[devtrac7_theme][version] = "1.x-dev"
 projects[devtrac7_theme][type] = "theme"
-projects[devtrac7_theme][download][type] = "git"
-projects[devtrac7_theme][download][branch] = 7.x-1.x
-projects[devtrac7_theme][download][url] = "http://git.drupal.org/project/devtrac7_theme.git"
 
 libraries[colorbox][download][type] = "file"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.x.zip"
