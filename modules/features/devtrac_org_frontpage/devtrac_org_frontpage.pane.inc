@@ -56,7 +56,7 @@ function devtrac_org_frontpage_default_pane_data() {
   $template->container = 'credit_footer_block';
   $template->lang = 'und';
   $template->data = array(
-    'value' => '<span id="project-info-footer">Built by  <a href="http://www.mountbatten.net/" target="_blank">Mountbatten Ltd</a> | Originally developed for <a href="http://www.unicef.org/" target="_blank">Unicef Uganda</a> &copy; 2014<br /><span id="Licensed-lower-footer">This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" >Creative Commons Attribution-ShareAlike 3.0 Unported License</a></span>',
+    'value' => '<span id="project-info-footer">Built by  <a href="http://www.mountbatten.net/" target="_blank">Mountbatten Ltd</a> | Originally developed for <a href="http://www.unicef.org/uganda" target="_blank">Unicef Uganda</a> &copy; 2014<br /><!--<span id="Licensed-lower-footer">This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" >Creative Commons Attribution-ShareAlike 3.0 Unported License</a></span>-->',
     'format' => 'full_html',
     'title' => '',
   );
@@ -69,10 +69,7 @@ function devtrac_org_frontpage_default_pane_data() {
   $template->container = 'front_page_information';
   $template->lang = 'und';
   $template->data = array(
-    'value' => '<h4>A WEB TOOL BUILT TO  MONITOR STATUS OF  NATIONAL SERVICES</h4>
-<p>A web application monitoring schools, heath centers, water points and development</p>
-
-<div id="banner-links"><span class="download"><a href="/demo">Demo</a></span> &nbsp;<span class="quick-tour"><a href="/tour">Quick Tour</a></span></div></p>',
+    'value' => '<h4>Monitor your projects in the field</h4><p>Devtrac helps you manage and publish the ongoing impact of your organisation&#39;s work.</p><p><div id="banner-links"><span class="download"><a href="/demo">Demo</a></span> &nbsp;<span class="quick-tour"><a href="/tour">Quick Tour</a></span></div></p>',
     'format' => 'full_html',
     'title' => '',
   );
@@ -85,7 +82,7 @@ function devtrac_org_frontpage_default_pane_data() {
   $template->container = 'social_links_footer';
   $template->lang = 'und';
   $template->data = array(
-    'value' => '<p><img alt="" src="/profiles/devtracdoc/themes/devtrac7_theme/images/devtracorg-images/nice-facebook.png" style="line-height:1.6" />&nbsp;<img alt="" src="/profiles/devtracdoc/themes/devtrac7_theme/images/devtracorg-images/nice-drupal.png" />&nbsp;<img alt="" src="/profiles/devtracdoc/themes/devtrac7_theme/images/devtracorg-images/nice-twitter.png" />&nbsp;<img alt="" src="/profiles/devtracdoc/themes/devtrac7_theme/images/devtracorg-images/nice-google.png" style="line-height:1.6" />&nbsp;&nbsp;</p>
+    'value' => '<p><!--<img alt="" src="/profiles/devtracdoc/themes/devtrac7_theme/images/devtracorg-images/nice-facebook.png" style="line-height:1.6" />&nbsp;--><a href="http://drupal.org/project/devtrac"><img alt="" src="/profiles/devtracdoc/themes/devtrac7_theme/images/devtracorg-images/nice-drupal.png" /></a>&nbsp;<a href="http://www.twitter.com/devtrac"><img alt="" src="/profiles/devtracdoc/themes/devtrac7_theme/images/devtracorg-images/nice-twitter.png" /></a><!--&nbsp;<img alt="" src="/profiles/devtracdoc/themes/devtrac7_theme/images/devtracorg-images/nice-google.png" style="line-height:1.6" />&nbsp;&nbsp;--></p>
 ',
     'format' => 'full_html',
     'title' => '',

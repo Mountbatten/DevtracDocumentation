@@ -54,7 +54,7 @@ function devtrac_org_frontpage_strongarm() {
     'form_footer' => '',
     'input_label' => '',
     'input_size' => '35',
-    'input_content' => 'Enter email address',
+    'input_content' => 'Get our updates by email',
     'submit_value' => 'Subscribe',
     'success_message' => 'Thank you for subscribing',
     'redirect_path' => '',

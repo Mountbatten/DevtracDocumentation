@@ -101,7 +101,7 @@ function devtrac_org_quicktours_views_default_views() {
   $handler->display->display_options['filters']['type']['value'] = array(
     'quick_tour' => 'quick_tour',
   );
-  $handler->display->display_options['path'] = 'quick-tour';
+  $handler->display->display_options['path'] = 'tour';
   $handler->display->display_options['menu']['type'] = 'normal';
   $handler->display->display_options['menu']['title'] = 'Tour';
   $handler->display->display_options['menu']['weight'] = '0';
