@@ -60,7 +60,7 @@ projects[omega_tools][version] = 3.0-rc4
 projects[omega_tools][type] = "module"
 projects[omega_tools][subdir] = "contrib"
 
-projects[colorbox][version] = 2.7
+projects[colorbox][version] = 2.8
 projects[colorbox][type] = "module"
 projects[colorbox][subdir] = "contrib"
 
