@@ -1,6 +1,7 @@
 ; Drupal.org release file.
 core = 7.x
 api = 2
+projects[drupal][version] = 7.30
 
 ; Basic contributed modules.
 
@@ -170,6 +171,10 @@ projects[simplenews][version] = 1.1
 projects[simplenews][type] = "module"
 projects[simplenews][subdir] = "contrib"
 
+projects[appserver][version] = 1.0-beta3
+projects[appserver][type] = "module"
+projects[appserver][subdir] = "contrib"
+
 projects[glossify][version] = 4.0-beta1
 projects[glossify][type] = "module"
 projects[glossify][subdir] = "contrib"
@@ -184,10 +189,8 @@ projects[omega][version] = 3.1
 projects[omega][type] = "theme"
 
 ;Main theme
+projects[devtrac7_theme][version] = "1.x-dev"
 projects[devtrac7_theme][type] = "theme"
-projects[devtrac7_theme][download][type] = "git"
-projects[devtrac7_theme][download][branch] = 7.x-1.x
-projects[devtrac7_theme][download][url] = "http://git.drupal.org/project/devtrac7_theme.git"
 
 libraries[colorbox][download][type] = "file"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.x.zip"
