@@ -93,6 +93,11 @@ function devtrac_org_frontpage_views_default_views() {
   $handler->display->display_options['filters']['type']['value'] = array(
     'quick_tour' => 'quick_tour',
   );
+  /* Filter criterion: Content: Promoted to front page */
+  $handler->display->display_options['filters']['promote']['id'] = 'promote';
+  $handler->display->display_options['filters']['promote']['table'] = 'node';
+  $handler->display->display_options['filters']['promote']['field'] = 'promote';
+  $handler->display->display_options['filters']['promote']['value'] = '1';
   $handler->display->display_options['path'] = 'home';
   $export['home_page_slideshow'] = $view;
 

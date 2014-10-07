@@ -70,7 +70,7 @@ function devtrac_org_quicktours_field_default_field_instances() {
         'module' => 'image',
         'settings' => array(
           'image_link' => '',
-          'image_style' => 'large',
+          'image_style' => 'devtrac_org_quicktour_popup_image_style',
         ),
         'type' => 'image',
         'weight' => 0,
