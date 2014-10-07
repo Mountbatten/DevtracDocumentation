@@ -178,6 +178,22 @@ projects[glossify][version] = 4.0-beta1
 projects[glossify][type] = "module"
 projects[glossify][subdir] = "contrib"
 
+projects[field_views][version] = 1.0-alpha2
+projects[field_views][type] = "module"
+projects[field_views][subdir] = "contrib"
+
+projects[votingapi][version] = 2.12
+projects[votingapi][type] = "module"
+projects[votingapi][subdir] = "contrib"
+
+projects[references][version] = 2.1
+projects[references][type] = "module"
+projects[references][subdir] = "contrib"
+
+projects[taxonomy_view_mode][version] = 1.0-alpha1
+projects[taxonomy_view_mode][type] = "module"
+projects[taxonomy_view_mode][subdir] = "contrib"
+
 includes[mountbatten_web_analytics] = https://raw.githubusercontent.com/benjaminug/mountbatten_makefiles/master/mountbatten_web_analytics.make
 includes[mountbatten_seo] = https://raw.githubusercontent.com/benjaminug/mountbatten_makefiles/master/mountbatten_seo.make
 includes[mountbatten_spam_protection] = https://raw.githubusercontent.com/benjaminug/mountbatten_makefiles/master/mountbatten_spam_protection.make
