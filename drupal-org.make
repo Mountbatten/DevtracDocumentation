@@ -1,7 +1,6 @@
 ; Drupal.org release file.
 core = 7.x
 api = 2
-projects[drupal][version] = 7.30
 
 ; Basic contributed modules.
 
@@ -13,11 +12,11 @@ projects[admin_menu][version] = 3.0-rc4
 projects[admin_menu][type] = "module"
 projects[admin_menu][subdir] = "contrib"
 
-projects[context][version] = 3.2
+projects[context][version] = 3.3
 projects[context][type] = "module"
 projects[context][subdir] = "contrib"
 
-projects[features][version] = 2.0
+projects[features][version] = 2.2
 projects[features][type] = "module"
 projects[features][subdir] = "contrib"
 
@@ -73,7 +72,7 @@ projects[weight][version] = 2.3
 projects[weight][type] = "module"
 projects[weight][subdir] = "contrib"
 
-projects[file_entity][version] = 2.0-alpha3
+projects[file_entity][version] = 2.0-beta1
 projects[file_entity][type] = "module"
 projects[file_entity][subdir] = "contrib"
 
