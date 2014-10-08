@@ -12,11 +12,11 @@ projects[admin_menu][version] = 3.0-rc4
 projects[admin_menu][type] = "module"
 projects[admin_menu][subdir] = "contrib"
 
-projects[context][version] = 3.2
+projects[context][version] = 3.3
 projects[context][type] = "module"
 projects[context][subdir] = "contrib"
 
-projects[features][version] = 2.0
+projects[features][version] = 2.2
 projects[features][type] = "module"
 projects[features][subdir] = "contrib"
 
@@ -60,7 +60,7 @@ projects[omega_tools][version] = 3.0-rc4
 projects[omega_tools][type] = "module"
 projects[omega_tools][subdir] = "contrib"
 
-projects[colorbox][version] = 2.7
+projects[colorbox][version] = 2.8
 projects[colorbox][type] = "module"
 projects[colorbox][subdir] = "contrib"
 
@@ -72,7 +72,7 @@ projects[weight][version] = 2.3
 projects[weight][type] = "module"
 projects[weight][subdir] = "contrib"
 
-projects[file_entity][version] = 2.0-alpha3
+projects[file_entity][version] = 2.0-beta1
 projects[file_entity][type] = "module"
 projects[file_entity][subdir] = "contrib"
 
@@ -170,9 +170,29 @@ projects[simplenews][version] = 1.1
 projects[simplenews][type] = "module"
 projects[simplenews][subdir] = "contrib"
 
+projects[appserver][version] = 1.0-beta3
+projects[appserver][type] = "module"
+projects[appserver][subdir] = "contrib"
+
 projects[glossify][version] = 4.0-beta1
 projects[glossify][type] = "module"
 projects[glossify][subdir] = "contrib"
+
+projects[field_views][version] = 1.0-alpha2
+projects[field_views][type] = "module"
+projects[field_views][subdir] = "contrib"
+
+projects[votingapi][version] = 2.12
+projects[votingapi][type] = "module"
+projects[votingapi][subdir] = "contrib"
+
+projects[references][version] = 2.1
+projects[references][type] = "module"
+projects[references][subdir] = "contrib"
+
+projects[taxonomy_view_mode][version] = 1.0-alpha1
+projects[taxonomy_view_mode][type] = "module"
+projects[taxonomy_view_mode][subdir] = "contrib"
 
 includes[mountbatten_web_analytics] = https://raw.githubusercontent.com/benjaminug/mountbatten_makefiles/master/mountbatten_web_analytics.make
 includes[mountbatten_seo] = https://raw.githubusercontent.com/benjaminug/mountbatten_makefiles/master/mountbatten_seo.make
