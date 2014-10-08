@@ -27,6 +27,11 @@ li {
 
 /*------------------------- Branding --------------------------------*/
 
+header .region-branding {
+  display: inline-block;
+  float: left;
+}
+
 header .region-branding .logo-img {
   margin: 0;
 }
@@ -43,37 +48,14 @@ header .region-branding .logo-img a img {
 
 header .region-menu {
   margin-left: 0;
-}
-
-header .region-menu .block-system-main-menu .block-title {
-  display: none;
-}
-
-header .region-menu .block-system-main-menu .content .menu {
-  margin-top: 10px;
-  margin-right: 10px;
+  display: inline-block;
   float: right;
 }
 
-header .region-menu .block-system-main-menu .content .menu li {
-  display: inline-block;
-  margin: 0px 10px;
-  padding: 0;
+header .region-menu .block-title {
+  display: none;
 }
 
-header .region-menu .block-system-main-menu .content .menu li a {
-  text-transform: uppercase;
-  color: #333333;
-}
-
-header .region-menu .block-system-main-menu .content .menu li a.active {
-  color: #A52A2A;
-}
-
-header .region-menu .block-system-main-menu .content .menu li a:hover {
-  color: #A52A2A;
-  text-decoration: none;
-}
 
 /*====================================================================
  *  Content Styles
@@ -121,7 +103,7 @@ header .region-menu .block-system-main-menu .content .menu li a:hover {
 .front.page-home section.section-content .block-simple-subscription-subscribe form input[type="submit"] {
   display: inline-block;
 }
-
+/*
 .front.page-home section.section-content .block-simple-subscription-subscribe form input[type="submit"] {
   background-color: #333333 !important;
 }
@@ -135,7 +117,7 @@ header .region-menu .block-system-main-menu .content .menu li a:hover {
   border-radius: 4px !important;
   width: 300px;
 }
-
+*/
 .front.page-home section.section-content .block-system-main {
   width: 670px;
   height: 377px;
@@ -452,6 +434,23 @@ article.node-quick-tour .field-name-body.field-type-text-with-summary > .field-i
  *  Footer Styles
  ====================================================================*/
 
+.section-footer {
+  height: 44px;
+}
+
+.region-footer-first {
+  display: inline-block;
+  float: left;
+}
+
+.region-footer-second {
+  display: inline-block;
+  float: right;
+}
+
+.region-map-toolbar {
+  display: none;
+}
 
 .block-pane-social-links-footer img {
   width: 30px;
