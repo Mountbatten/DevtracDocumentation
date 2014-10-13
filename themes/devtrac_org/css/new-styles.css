@@ -1,0 +1,462 @@
+
+/*====================================================================
+ *  Devtrac Org Styles
+ ====================================================================*/
+
+a {
+/*  display: inline-block;*/
+}
+
+li {
+  list-style-position: inside;
+}
+
+/*====================================================================
+ *  Home Page Styles
+ ====================================================================*/
+
+.front.page-home section.section-content {
+  overflow: hidden;
+  background: url(../images/devtracorg-images/home-backround.png) no-repeat;
+  background-size: cover;
+}
+
+/*====================================================================
+ *  Header Styles
+ ====================================================================*/
+
+/*------------------------- Branding --------------------------------*/
+
+header .region-branding {
+  display: inline-block;
+  float: left;
+}
+
+header .region-branding .logo-img {
+  margin: 0;
+}
+
+header .region-branding .logo-img a {
+  display: inline-block;
+}
+
+header .region-branding .logo-img a img {
+  padding: 10px;
+}
+
+/*------------------------- Main menu -------------------------------*/
+
+header .region-menu {
+  margin-left: 0;
+  display: inline-block;
+  float: right;
+}
+
+header .region-menu .block-title {
+  display: none;
+}
+
+
+/*====================================================================
+ *  Content Styles
+ ====================================================================*/
+
+.front.page-home section.section-content .region-inner.region-content-inner {
+  height: 400px;
+  width: 1220px;
+  margin: 0 auto;
+  position: relative;
+ }
+
+.front.page-home section.section-content .block-simple-subscription-subscribe ,
+.front.page-home section.section-content .block-pane-front-page-information {
+  width: 500px;
+  clear: left;
+  float: left;
+}
+
+.front.page-home section.section-content .block-pane-front-page-information p ,
+.front.page-home section.section-content .block-pane-front-page-information h4 {
+  color: #FFFFFF;
+  text-shadow: 2px 2px 5px #222222;
+}
+
+.front.page-home section.section-content .block-pane-front-page-information h4 {
+  font-size: 2.5em;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+.front.page-home section.section-content .block-pane-front-page-information p {
+  font-size: 1.8em;
+}
+
+.front.page-home section.section-content .block-simple-subscription-subscribe {
+  padding-top: 40px;
+}
+
+.front.page-home section.section-content .block-simple-subscription-subscribe .block-title {
+  display: none;
+}
+
+.front.page-home section.section-content .block-simple-subscription-subscribe form .form-item-input ,
+.front.page-home section.section-content .block-simple-subscription-subscribe form input[type="submit"] {
+  display: inline-block;
+}
+/*
+.front.page-home section.section-content .block-simple-subscription-subscribe form input[type="submit"] {
+  background-color: #333333 !important;
+}
+
+.front.page-home section.section-content .block-simple-subscription-subscribe form input[type="submit"]:hover {
+  background-color: #555555 !important;
+}
+
+.front.page-home section.section-content .block-simple-subscription-subscribe form #edit-input {
+  border: 2px solid #555555 !important;
+  border-radius: 4px !important;
+  width: 300px;
+}
+*/
+.front.page-home section.section-content .block-system-main {
+  width: 670px;
+  height: 377px;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+}
+
+.front.page-home section.section-content .block-system-main img {
+  width: 670px;
+  height: auto;
+}
+
+#banner-links a {
+  display: inline-block;
+  padding: 8px 15px;
+  color: #FFFFFF;
+  border-radius: 10px;
+  font-size: 1.5em;
+}
+
+#banner-links a:hover {
+  text-decoration: none;
+}
+
+#banner-links .download a {
+  background-color: #EA0001;
+}
+
+#banner-links .download a:hover {
+  background-color: #A30001;
+}
+
+#banner-links .quick-tour a {
+  background-color: #FF6600;
+}
+
+#banner-links .quick-tour a:hover {
+  background-color: #DB5800;
+}
+
+/*-------------------------- Side bar Temp ---------------------------*/
+
+/*.node-type-book .section-content {
+  background-color: #504F4F;
+  color: #FFFFFF;
+  padding-top: 20px;
+}
+
+.node-type-book .section-content h1 ,
+.node-type-book .section-content p {
+  color: #FFFFFF;
+}
+
+.node-type-book .zone-content-wrapper .grid-9.region-content h1.title {
+  padding-left: 10px;
+}
+
+.zone-content-wrapper aside.region-sidebar-first {
+  background-image: none;
+  background-color: #EA0001;
+  box-shadow: 4px 4px 5px #333333;
+}
+
+.region-sidebar-first h2.block-title {
+  display: none;
+}
+
+.zone-content-wrapper .grid-9.region-content .region-content-inner {
+  padding: 0 20px;
+}
+
+*/
+
+/*-------------------------- Side bar -------------------------------*/
+
+/*.region-sidebar-first .region-inner {
+  margin: 10px 10px 10px 20px;
+}
+
+.region-sidebar-first ul li {
+  list-style: none;
+} 
+
+.region-sidebar-first ul ul {
+  border-top: thin dashed #FFFFFF;
+} 
+
+.region-sidebar-first ul ul li {
+  border-bottom: thin dashed #FFFFFF;
+  padding: 0;
+  margin-left: 0;
+} 
+
+.region-sidebar-first ul ul li a {
+  background-image: url(../images/devtracorg-images/bullet-triangle.png);
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 4px auto;
+} 
+
+.region-sidebar-first ul a {
+  color: #FFFFFF;
+  margin: 2px 0;
+  padding: 5px 10px 5px 5px;
+  display: block;
+} 
+
+.region-sidebar-first ul a:hover {
+  text-decoration: none;
+  background-color: #C30001;
+}
+
+
+.region-sidebar-first ul ul li a {
+  padding: 5px 10px 5px 15px;
+}
+
+.region-sidebar-first ul ul li.active-trail a {
+  background-color: #C30001;
+}
+*/
+
+
+
+.region-sidebar-first .region-inner {
+  /*margin: 10px 10px 10px 0px;*/
+}
+
+.region-sidebar-first ul li {
+  list-style: none;
+  border-bottom: thin solid;
+} 
+
+.region-sidebar-first ul ul {
+  border-top: thin solid #FFFFFF;
+} 
+
+.region-sidebar-first ul ul li {
+  border-bottom: thin solid #FFFFFF;
+  padding: 0;
+  margin-left: 0;
+} 
+
+.region-sidebar-first ul ul li.last {
+  border-bottom: none;
+} 
+
+.region-sidebar-first ul ul li a {
+
+} 
+
+.region-sidebar-first ul li a.active-trail.active ,
+.region-sidebar-first ul li a.active ,
+.region-sidebar-first ul li a:hover {
+  background-color: #111111;
+}
+
+.region-sidebar-first ul li a.active-trail.active ,
+.region-sidebar-first ul li a.active {
+  font-style: italic;
+}
+
+.region-sidebar-first .block-book-navigation h2.block-title {
+  color: #FFFFFF;
+  padding: 5px 5px 5px 20px;
+  font-weight: normal;
+  background-color: #111111;
+  border-top: thin solid #FFFFFF;
+  border-bottom: thin solid #FFFFFF;
+  margin-top: 5px;
+  font-size: 1.1em;
+} 
+
+.region-sidebar-first .book-block-menu > ul.menu > li > a {
+  padding-left: 20px;
+} 
+
+.region-sidebar-first ul a {
+  color: #EEEEEE;
+  margin: 2px 0;
+  padding: 5px 10px 5px 5px;
+  display: block;
+  font-size: 1.0em;
+} 
+
+.region-sidebar-first ul a:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.region-sidebar-first ul ul li a {
+  padding: 5px 10px 5px 15px;
+}
+
+/*.region-sidebar-first ul ul li.active-trail a {
+  background-color: #C30001;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------- Columns --------------------------------*/
+
+.page-quick-tour .container-12 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
+
+.block-views {
+  width: 290px;
+  display: inline-block;
+  float: left;
+  margin: 5px;
+  overflow: hidden;
+}
+
+.block-views .views-row {
+  margin-bottom: 10px;
+}
+
+.block-views .views-row .views-field-title {
+  background-color: #FDB225;
+  margin-bottom: 0px;
+}
+
+.block-views .views-row:hover .views-field-title {
+  background-color: #FF6600;
+}
+
+.block-views .views-row:hover .views-field-title a {
+  color: #FFFFFF;
+}
+
+.block-views .views-row .views-field-title a {
+  padding: 15px 10px;
+  color: #333333;
+  font-size: 1.5em;
+  display: block;
+}
+
+.block-views .views-row .views-field-title a:hover {
+  text-decoration: none;
+}
+
+.block-views .views-row .views-field-field-image {
+  margin-bottom: 10px;
+}
+
+
+/*====================================================================
+ *  ColorBox Styles
+ ====================================================================*/
+
+#cboxLoadedContent header h2.node-title {
+  font-weight: normal;
+}
+
+#cboxLoadedContent header h2.node-title a {
+  color: #333333;
+}
+
+#cboxLoadedContent header h2.node-title a:hover {
+  text-decoration: none;
+}
+
+/*
+#cboxLoadedContent .field-name-field-image.field-type-image ,
+#cboxLoadedContent .field-name-body.field-type-text-with-summary {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  overflow: hidden;
+}
+
+#cboxLoadedContent .field-name-body.field-type-text-with-summary > .field-items {
+  padding: 5px 10px;
+  font-style: large;
+  line-height: 2.0em;
+}
+*/
+
+article.node-quick-tour .field-name-field-image.field-type-image ,
+article.node-quick-tour .field-name-body.field-type-text-with-summary {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  overflow: hidden;
+}
+
+article.node-quick-tour .field-name-body.field-type-text-with-summary > .field-items {
+  padding: 5px 10px;
+  font-style: large;
+  line-height: 2.0em;
+}
+
+
+
+
+/*====================================================================
+ *  Footer Styles
+ ====================================================================*/
+
+.section-footer {
+  height: 44px;
+}
+
+.region-footer-first {
+  display: inline-block;
+  float: left;
+}
+
+.region-footer-second {
+  display: inline-block;
+  float: right;
+}
+
+.region-map-toolbar {
+  display: none;
+}
+
+.block-pane-social-links-footer img {
+  width: 30px;
+  height: auto;
+}
+
+
+
+
