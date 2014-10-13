@@ -194,6 +194,10 @@ projects[taxonomy_view_mode][version] = 1.0-alpha1
 projects[taxonomy_view_mode][type] = "module"
 projects[taxonomy_view_mode][subdir] = "contrib"
 
+projects[adminimal_admin_menu][version] = 1.5
+projects[adminimal_admin_menu][type] = "module"
+projects[adminimal_admin_menu][subdir] = "contrib"
+
 includes[mountbatten_web_analytics] = https://raw.githubusercontent.com/benjaminug/mountbatten_makefiles/master/mountbatten_web_analytics.make
 includes[mountbatten_seo] = https://raw.githubusercontent.com/benjaminug/mountbatten_makefiles/master/mountbatten_seo.make
 includes[mountbatten_spam_protection] = https://raw.githubusercontent.com/benjaminug/mountbatten_makefiles/master/mountbatten_spam_protection.make
@@ -206,6 +210,9 @@ projects[omega][type] = "theme"
 ;Main theme
 projects[devtrac7_theme][version] = "1.x-dev"
 projects[devtrac7_theme][type] = "theme"
+
+projects[adminimal][version] = "1.18"
+projects[adminimal][type] = "theme"
 
 libraries[colorbox][download][type] = "file"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.x.zip"
