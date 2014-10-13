@@ -28,7 +28,7 @@ projects[views][version] = 3.8
 projects[views][type] = "module"
 projects[views][subdir] = "contrib"
 
-projects[webform][version] = 3.20
+projects[webform][version] = 3.21
 projects[webform][type] = "module"
 projects[webform][subdir] = "contrib"
 
