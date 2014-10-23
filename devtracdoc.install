@@ -13,7 +13,8 @@
  */
 function devtracdoc_install() {
   // Enable some standard blocks.
-  $default_theme = 'devtrac_theme';
+  $default_theme = 'devtrac_org';
+    $admin_theme = 'adminimal';
 
   // Add text formats.
   $filtered_html_format = array(
