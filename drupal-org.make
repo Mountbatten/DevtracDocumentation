@@ -211,8 +211,8 @@ projects[omega][type] = "theme"
 projects[devtrac7_theme][version] = "1.x-dev"
 projects[devtrac7_theme][type] = "theme"
 
-projects[adminimal][version] = "1.18"
-projects[adminimal][type] = "theme"
+projects[adminimal_theme][version] = "1.18"
+projects[adminimal_theme][type] = "theme"
 
 libraries[colorbox][download][type] = "file"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.x.zip"
