@@ -313,18 +313,27 @@ article.node-quick-tour .field-name-body.field-type-text-with-summary > .field-i
   height: 44px;
 }
 
+.region-footer-first ,
+.region-footer-second {
+  display: inline-block !important;
+  width: 50% !important;
+  margin: 0 !important;
+}
+
 .region-footer-first {
-  display: inline-block;
-  float: left;
+  float: left !important;
 }
 
 .region-footer-second {
-  display: inline-block;
-  float: right;
+  float: right !important;
 }
 
 .region-map-toolbar {
   display: none;
+}
+
+.block-pane-social-links-footer {
+  text-align: right;
 }
 
 .block-pane-social-links-footer img {
