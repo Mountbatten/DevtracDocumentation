@@ -56,6 +56,13 @@ header .region-menu .block-title {
   display: none;
 }
 
+li.menu-393.menuparent.menu-path-node-20.odd span.drop-arrow {
+  background-image: url(/profiles/devtracdoc/themes/devtrac7_theme/images/icon-collapsible-close-dark.png);
+  background-size: 15px auto;
+  width: 15px;
+  margin-right: 0px;
+}
+
 
 /*====================================================================
  *  Content Styles
