@@ -212,7 +212,7 @@ projects[omega][version] = 3.1
 projects[omega][type] = "theme"
 
 ;Main theme
-projects[devtrac7_theme][version] = "1.0"
+projects[devtrac7_theme][version] = "1.x-dev"
 projects[devtrac7_theme][type] = "theme"
 
 projects[adminimal_theme][version] = "1.18"
