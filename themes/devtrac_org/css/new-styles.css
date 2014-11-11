@@ -41,7 +41,7 @@ header .region-branding .logo-img a {
 }
 
 header .region-branding .logo-img a img {
-  padding: 10px;
+  padding: 10px 10px 0px 0px;
 }
 
 /*------------------------- Main menu -------------------------------*/
@@ -54,6 +54,10 @@ header .region-menu {
 
 header .region-menu .block-title {
   display: none;
+}
+
+.region-menu .block-nice-menus .nice-menu {
+  margin-top: 20px;
 }
 
 li.menu-393.menuparent.menu-path-node-20.odd span.drop-arrow {
