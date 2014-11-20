@@ -282,6 +282,24 @@ li.menu-393.menuparent.menu-path-node-20.odd span.drop-arrow {
   margin-bottom: 10px;
 }
 
+/*====================================================================
+ *  Form Depth Styles
+ ====================================================================*/
+
+.webform-client-form {
+  padding: 20px;
+  border: thin solid #CCCCCC;
+  border-radius: 3px;
+  margin: 10px;
+  background: #EEEEEE
+}
+
+.webform-client-form > div {
+  padding: 20px;
+  border: thin solid #CCCCCC;
+  border-radius: 3px;
+  background: #FFFFFF;
+}
 
 /*====================================================================
  *  ColorBox Styles
