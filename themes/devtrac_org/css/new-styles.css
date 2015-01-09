@@ -298,8 +298,40 @@ li.menu-393.menuparent.menu-path-node-20.odd span.drop-arrow {
   padding: 20px;
   border: thin solid #CCCCCC;
   border-radius: 3px;
-  background: #FFFFFF;
+  background-color: #FFFFFF;
+  background-image: url(../images/devtracorg-images/devtracorg-contact.png);
+  background-repeat: no-repeat;
+  background-position: 90% 50%;
+  background-size: 40% auto;
 }
+
+
+
+/*====================================================================
+ *  Contact Form Styles
+ ====================================================================*/
+
+.webform-client-form .form-item {
+  width: 50%;
+  min-width: 320px;
+}
+
+.webform-client-form .form-item input {
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .webform-client-form > div {
+    background-image: none;
+  }
+
+  .webform-client-form .form-item {
+    width: 100%;
+    min-width: 320px;
+  }
+
+}
+
 
 /*====================================================================
  *  ColorBox Styles
