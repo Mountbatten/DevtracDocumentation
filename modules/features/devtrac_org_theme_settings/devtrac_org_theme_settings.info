@@ -1,8 +1,8 @@
 name = DevTrac Org theme settings
 core = 7.x
 package = DevtracOrg
-version = 7.x-1.x-dev
-project = devtracdoc
+version = 7.x-1.0
+project = devtrac_org_theme_settings
 dependencies[] = ctools
 dependencies[] = delta
 dependencies[] = strongarm
@@ -22,3 +22,4 @@ features[variable][] = theme_devtrac7_theme_settings
 features[variable][] = theme_devtrac_org_settings
 features[variable][] = theme_settings
 features_exclude[dependencies][ckeditor] = ckeditor
+mtime = 1416551609

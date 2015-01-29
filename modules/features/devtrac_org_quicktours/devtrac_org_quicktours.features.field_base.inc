@@ -35,14 +35,14 @@ function devtrac_org_quicktours_field_default_field_bases() {
     'locked' => 0,
     'module' => 'text',
     'settings' => array(),
-    'translatable' => 0,
+    'translatable' => 1,
     'type' => 'text_with_summary',
   );
 
   // Exported field_base: 'field_image'
   $field_bases['field_image'] = array(
     'active' => 1,
-    'cardinality' => 1,
+    'cardinality' => 8,
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_image',

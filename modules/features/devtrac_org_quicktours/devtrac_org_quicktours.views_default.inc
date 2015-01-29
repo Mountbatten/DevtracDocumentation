@@ -345,6 +345,10 @@ function devtrac_org_quicktours_views_default_views() {
   $handler->display->display_options['fields']['title_1']['alter']['alter_text'] = TRUE;
   $handler->display->display_options['fields']['title_1']['alter']['text'] = '[field_image]';
   $handler->display->display_options['fields']['title_1']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['title_1']['node_in_colorbox'] = TRUE;
+  $handler->display->display_options['fields']['title_1']['node_in_colorbox_width'] = '80%';
+  $handler->display->display_options['fields']['title_1']['node_in_colorbox_height'] = '70%';
+  $handler->display->display_options['fields']['title_1']['node_in_colorbox_rel'] = 'quick-tours-gallery';
   $export['quick_tour'] = $view;
 
   return $export;

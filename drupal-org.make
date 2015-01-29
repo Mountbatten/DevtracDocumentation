@@ -4,19 +4,19 @@ api = 2
 
 ; Basic contributed modules.
 
-projects[ctools][version] = 1.4
+projects[ctools][version] = 1.6
 projects[ctools][type] = "module"
 projects[ctools][subdir] = "contrib"
 
-projects[admin_menu][version] = 3.0-rc4
+projects[admin_menu][version] = 3.0-rc5
 projects[admin_menu][type] = "module"
 projects[admin_menu][subdir] = "contrib"
 
-projects[context][version] = 3.3
+projects[context][version] = 3.6
 projects[context][type] = "module"
 projects[context][subdir] = "contrib"
 
-projects[features][version] = 2.2
+projects[features][version] = 2.3
 projects[features][type] = "module"
 projects[features][subdir] = "contrib"
 
@@ -40,7 +40,7 @@ projects[entity][version] = 1.5
 projects[entity][type] = "module"
 projects[entity][subdir] = "contrib"
 
-projects[jquery_update][version] = 2.4
+projects[jquery_update][version] = 2.5
 projects[jquery_update][type] = "module"
 projects[jquery_update][subdir] = "contrib"
 
@@ -48,7 +48,7 @@ projects[libraries][version] = 3.x-dev
 projects[libraries][type] = "module"
 projects[libraries][subdir] = "contrib"
 
-projects[book_helper][version] = 1.0-beta2
+projects[book_helper][version] = 1.0-beta3
 projects[book_helper][type] = "module"
 projects[book_helper][subdir] = "contrib"
 
@@ -64,11 +64,12 @@ projects[colorbox][version] = 2.8
 projects[colorbox][type] = "module"
 projects[colorbox][subdir] = "contrib"
 
-projects[colorbox_node][version] = 3.3
+projects[colorbox_node][version] = 3.4
 projects[colorbox_node][type] = "module"
 projects[colorbox_node][subdir] = "contrib"
+projects[colorbox_node][patches][] = "https://www.drupal.org/files/issues/colorbox_node-movefindHreffunction-2218251-8.patch"
 
-projects[weight][version] = 2.3
+projects[weight][version] = 2.4
 projects[weight][type] = "module"
 projects[weight][subdir] = "contrib"
 
@@ -202,10 +203,10 @@ projects[nagios][version] = 1.2
 projects[nagios][type] = "module"
 projects[nagios][subdir] = "contrib"
 
-includes[mountbatten_web_analytics] = https://raw.githubusercontent.com/benjaminug/mountbatten_makefiles/master/mountbatten_web_analytics.make
-includes[mountbatten_seo] = https://raw.githubusercontent.com/benjaminug/mountbatten_makefiles/master/mountbatten_seo.make
-includes[mountbatten_spam_protection] = https://raw.githubusercontent.com/benjaminug/mountbatten_makefiles/master/mountbatten_spam_protection.make
-includes[mountbatten_web_media] = https://raw.githubusercontent.com/benjaminug/mountbatten_makefiles/master/mountbatten_web_media.make
+includes[mountbatten_web_analytics] = https://raw.githubusercontent.com/mountbatten/mountbatten_makefiles/master/mountbatten_web_analytics.make
+includes[mountbatten_seo] = https://raw.githubusercontent.com/mountbatten/mountbatten_makefiles/master/mountbatten_seo.make
+includes[mountbatten_spam_protection] = https://raw.githubusercontent.com/mountbatten/mountbatten_makefiles/master/mountbatten_spam_protection.make
+includes[mountbatten_web_media] = https://raw.githubusercontent.com/mountbatten/mountbatten_makefiles/master/mountbatten_web_media.make
 
 ; Base theme.
 projects[omega][version] = 3.1

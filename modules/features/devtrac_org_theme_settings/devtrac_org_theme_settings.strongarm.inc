@@ -14,7 +14,7 @@ function devtrac_org_theme_settings_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'admin_theme';
-  $strongarm->value = 'adminimal';
+  $strongarm->value = 'seven';
   $export['admin_theme'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -35,7 +35,7 @@ function devtrac_org_theme_settings_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'node_admin_theme';
-  $strongarm->value = 1;
+  $strongarm->value = '1';
   $export['node_admin_theme'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -578,8 +578,8 @@ function devtrac_org_theme_settings_strongarm() {
     'toggle_comment_user_picture' => 1,
     'toggle_comment_user_verification' => 1,
     'toggle_favicon' => 1,
-    'toggle_main_menu' => 1,
-    'toggle_secondary_menu' => 1,
+    'toggle_main_menu' => 0,
+    'toggle_secondary_menu' => 0,
     'default_logo' => 1,
     'logo_path' => '',
     'logo_upload' => '',
@@ -632,6 +632,7 @@ function devtrac_org_theme_settings_strongarm() {
       'modules/field/theme/field.css' => 0,
       'modules/node/node.css' => 0,
       'profiles/devtracdoc/modules/contrib/picture/picture_wysiwyg.css' => 0,
+      'modules/search/search.css' => 0,
       'modules/user/user.css' => 0,
       'profiles/devtracdoc/modules/contrib/views/css/views.css' => 0,
       'profiles/devtracdoc/themes/devtrac7_theme/css/global.css' => 0,
@@ -674,6 +675,7 @@ function devtrac_org_theme_settings_strongarm() {
     'alpha_debug_grid_roles' => array(
       1 => '1',
       2 => '2',
+      3 => '3',
     ),
     'alpha_toggle_messages' => 1,
     'alpha_toggle_action_links' => 1,
@@ -774,16 +776,6 @@ function devtrac_org_theme_settings_strongarm() {
     'alpha_region_header_first_css' => '',
     'alpha_region_header_first_equal_height_element' => FALSE,
     'alpha_region_header_first_equal_height_container' => 0,
-    'alpha_region_menu_force' => 1,
-    'alpha_region_menu_zone' => NULL,
-    'alpha_region_menu_prefix' => '0',
-    'alpha_region_menu_columns' => '12',
-    'alpha_region_menu_suffix' => '0',
-    'alpha_region_menu_weight' => '1',
-    'alpha_region_menu_position' => '0',
-    'alpha_region_menu_css' => '',
-    'alpha_region_menu_equal_height_element' => FALSE,
-    'alpha_region_menu_equal_height_container' => 0,
     'alpha_region_header_second_force' => 0,
     'alpha_region_header_second_zone' => NULL,
     'alpha_region_header_second_prefix' => '0',
@@ -897,13 +889,23 @@ function devtrac_org_theme_settings_strongarm() {
     'alpha_region_branding_force' => 1,
     'alpha_region_branding_zone' => 'branding',
     'alpha_region_branding_prefix' => '0',
-    'alpha_region_branding_columns' => '12',
+    'alpha_region_branding_columns' => '6',
     'alpha_region_branding_suffix' => '0',
     'alpha_region_branding_weight' => '1',
     'alpha_region_branding_position' => '0',
     'alpha_region_branding_css' => '',
     'alpha_region_branding_equal_height_element' => 0,
     'alpha_region_branding_equal_height_container' => 0,
+    'alpha_region_menu_force' => 1,
+    'alpha_region_menu_zone' => 'branding',
+    'alpha_region_menu_prefix' => '0',
+    'alpha_region_menu_columns' => '6',
+    'alpha_region_menu_suffix' => '0',
+    'alpha_region_menu_weight' => '2',
+    'alpha_region_menu_position' => '0',
+    'alpha_region_menu_css' => '',
+    'alpha_region_menu_equal_height_element' => 0,
+    'alpha_region_menu_equal_height_container' => 0,
     'alpha_zone_preface_wrapper' => 1,
     'alpha_zone_preface_force' => 0,
     'alpha_zone_preface_order' => 0,
