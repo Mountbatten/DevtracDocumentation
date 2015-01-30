@@ -11,6 +11,10 @@ li {
   list-style-position: inside;
 }
 
+.glossify-link img {
+  display: none;
+}
+
 /*====================================================================
  *  Home Page Styles
  ====================================================================*/
@@ -160,6 +164,8 @@ li.menu-393.menuparent.menu-path-node-20.odd span.drop-arrow {
   background-color: #DB5800;
 }
 
+
+/*
 .region-sidebar-first ul li {
   list-style: none;
   border-bottom: thin solid;
@@ -224,6 +230,44 @@ li.menu-393.menuparent.menu-path-node-20.odd span.drop-arrow {
 
 .region-sidebar-first ul ul li a {
   padding: 5px 10px 5px 15px;
+}
+*/
+
+
+
+.region-sidebar-first{
+  background:#333333;
+  color:#FFFFFF;
+}
+
+.region-sidebar-first ul.menu {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.region-sidebar-first .content > ul.menu > li a {
+  color: inherit;
+  display: block;
+  padding: 5px;
+  margin: 0;
+}
+
+.region-sidebar-first .content > ul.menu > li.expanded {
+  padding: 0 0 0 10px;
+  margin: 0;
+  border-bottom: thin solid #FFFFFF;
+}
+
+.region-sidebar-first .content > ul.menu > li.expanded > a ,
+.region-sidebar-first .content > ul.menu > li.collapsed > a {
+  padding: 10px;
+}
+
+.region-sidebar-first .content > ul.menu > li.expanded li {
+  padding: 0 0 0 20px;
+  margin: 0;
+  border: none;
 }
 
 /*-------------------------- Columns --------------------------------*/
