@@ -38,6 +38,12 @@ function devtrac_org_frontpage_context_default_contexts() {
           'region' => 'content',
           'weight' => '-9',
         ),
+        'views-frontpage_slogan_blocks-block' => array(
+          'module' => 'views',
+          'delta' => 'frontpage_slogan_blocks-block',
+          'region' => 'content',
+          'weight' => '10',
+        ),
       ),
     ),
     'delta' => array(
@@ -59,17 +65,20 @@ function devtrac_org_frontpage_context_default_contexts() {
   $context->description = '';
   $context->tag = 'Pages';
   $context->conditions = array(
-    'views' => array(
+    'path' => array(
       'values' => array(
-        'demo_page' => 'demo_page',
-        'demo_page:page' => 'demo_page:page',
-        'nodequeue_2:page' => 'nodequeue_2:page',
+        '*' => '*',
+        '~tour' => '~tour',
+        '~<front>' => '~<front>',
       ),
     ),
   );
   $context->reactions = array(
     'delta' => array(
       'delta_template' => 'slideshow_layout',
+    ),
+    'theme_html' => array(
+      'class' => 'pageborder',
     ),
   );
   $context->condition_mode = 0;

@@ -270,59 +270,59 @@ li.menu-393.menuparent.menu-path-node-20.odd span.drop-arrow {
   border: none;
 }
 
-/*-------------------------- Columns --------------------------------*/
+/*-------------------------- Columns Tour Page --------------------------------*/
 
-.context-tour .zone-content.container-12 ,
-.context-faq-questions-top .zone-content.container-12 {
+.page-tour .zone-content.container-12 ,
+.page-faq .zone-content.container-12 {
   margin: 10px auto;
   width: 90%;
 }
 
-.block-views {
+.page-tour .block-views {
   width: 25%;
   display: inline-block;
   float: left;
   overflow: hidden;
 }
 
-.block-views .block-inner {
+.page-tour .block-views .block-inner {
   padding: 5px;
 }
 
-.block-views .views-row {
+.page-tour .block-views .views-row {
   margin-bottom: 10px;
 }
 
-.block-views .views-row img {
+.page-tour .block-views .views-row img {
   width: 100%;
   height: auto;
 }
 
-.block-views .views-row .views-field-title {
+.page-tour .block-views .views-row .views-field-title {
   background-color: #FDB225;
   margin-bottom: 0px;
 }
 
-.block-views .views-row:hover .views-field-title {
+.page-tour .block-views .views-row:hover .views-field-title {
   background-color: #FF6600;
 }
 
-.block-views .views-row:hover .views-field-title a {
+.page-tour .block-views .views-row:hover .views-field-title a {
   color: #FFFFFF;
 }
 
-.block-views .views-row .views-field-title a {
+.page-tour .block-views .views-row .views-field-title a {
   padding: 15px 10px;
   color: #333333;
   font-size: 1.5em;
   display: block;
 }
 
-.block-views .views-row .views-field-title a:hover {
+.page-tour .block-views .views-row .views-field-title a:hover {
   text-decoration: none;
 }
 
-.block-views .views-row .views-field-field-image {
+.page-tour .block-views .views-row .views-field-field-image {
   margin-bottom: 10px;
 }
 
@@ -466,7 +466,7 @@ article.node-quick-tour .field-name-body.field-type-text-with-summary > .field-i
     text-align: center;
   }
 
-  .block-views {
+  .page-tour .block-views {
     width: 50%;
   }
 
@@ -485,6 +485,51 @@ article.node-quick-tour .field-name-body.field-type-text-with-summary > .field-i
   }
 
 } 
+
+/*----------------------  Front Page Slogan Blocks -------------------*/
+
+#block-views-frontpage-slogan-blocks-block {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+
+#block-views-frontpage-slogan-blocks-block h2 a:link, 
+#block-views-frontpage-slogan-blocks-block h2 a:visited {
+    color:#222222;
+}
+
+#block-views-frontpage-slogan-blocks-block h2 {
+    text-align: center;
+}
+
+
+#block-views-frontpage-slogan-blocks-block article {
+    width: 30%;
+    float: left;
+    background-color: #ffffff;
+    opacity: .8;
+  padding: 10px;
+}
+
+#block-views-frontpage-slogan-blocks-block .field-name-field-image img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+#block-views-frontpage-slogan-blocks-block article .node-readmore {
+    float: right;
+    bottom: 0px;
+}
+
+
+.page-node article .field-name-field-image {
+    float: left;
+    padding-right: 50px;
+    padding-bottom: 0px;
+}
 
 
 @media screen and (min-width: 1700px) {

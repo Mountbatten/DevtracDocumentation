@@ -1,2 +1,11 @@
 *~
 *.kate-swp
+libraries
+modules/contrib
+themes/omega
+themes/devtrac7_theme
+modules/features/mountbatten_seo/
+modules/features/mountbatten_spam_protection/
+modules/features/mountbatten_web_analytics/
+modules/features/mountbatten_web_media/
+themes/adminimal_theme/
