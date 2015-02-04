@@ -2,10 +2,10 @@
   Drupal.behaviors.devtracOrgFront = {
     attach: function(context, settings) {
       
-      devtracOrgFront();
+      //devtracOrgFront();
 
       $(window).resize(function() {
-        devtracOrgFront();
+        //devtracOrgFront();
       });
       
       function devtracOrgFront() {
