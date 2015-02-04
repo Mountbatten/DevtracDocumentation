@@ -103,7 +103,7 @@ projects[webform2vtiger][version] = 1.0
 projects[webform2vtiger][type] = "module"
 projects[webform2vtiger][subdir] = "contrib"
 
-projects[piwik][version] = 2.5
+projects[piwik][version] = 2.7
 projects[piwik][type] = "module"
 projects[piwik][subdir] = "contrib"
 
@@ -127,11 +127,11 @@ projects[search_config][version] = 1.1
 projects[search_config][type] = "module"
 projects[search_config][subdir] = "contrib"
 
-projects[xmlsitemap][version] = 2.0
+projects[xmlsitemap][version] = 2.2
 projects[xmlsitemap][type] = "module"
 projects[xmlsitemap][subdir] = "contrib"
 
-projects[metatag][version] = 1.0-rc1
+projects[metatag][version] = 1.4
 projects[metatag][type] = "module"
 projects[metatag][subdir] = "contrib"
 
@@ -151,7 +151,7 @@ projects[chosen][version] = 2.0-beta4
 projects[chosen][type] = "module"
 projects[chosen][subdir] = "contrib"
 
-projects[schemaorg][version] = 1.0-beta4
+projects[schemaorg][version] = 1.0-rc1
 projects[schemaorg][type] = "module"
 projects[schemaorg][subdir] = "contrib"
 
@@ -163,7 +163,7 @@ projects[devel][version] = 1.5
 projects[devel][type] = "module"
 projects[devel][subdir] = "contrib"
 
-projects[faq][version] = 1.0-rc2
+projects[faq][version] = 1.0-rc3
 projects[faq][type] = "module"
 projects[faq][subdir] = "contrib"
 
@@ -199,7 +199,7 @@ projects[adminimal_admin_menu][version] = 1.5
 projects[adminimal_admin_menu][type] = "module"
 projects[adminimal_admin_menu][subdir] = "contrib"
 
-projects[nagios][version] = 1.2
+projects[nagios][version] = 1.3
 projects[nagios][type] = "module"
 projects[nagios][subdir] = "contrib"
 
